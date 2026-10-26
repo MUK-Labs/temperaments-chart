@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f6">
+  <meta name="description" content="An interactive, source-based atlas of historical tuning: explore places, dated evidence and composers, then hear the temperaments in the companion explorer.">
+  <title>Temperaments · Historical atlas</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#atlas">Skip to the atlas</a>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="Temperaments historical atlas home"><span class="wordmark-icon" aria-hidden="true">♮</span> temperaments<span class="wordmark-divider">/</span><span class="wordmark-section">historical atlas</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#people-section" id="people-nav">People &amp; contexts</a>
+      <a href="#sources-section" id="sources-nav">About &amp; sources</a>
+      <a href="https://muk-labs.github.io/temperaments/" target="_blank" rel="noopener noreferrer" class="explorer-nav">Open explorer <span aria-hidden="true">↗</span><span class="sr-only"> (new tab)</span></a>
+    </nav>
+  </header>
+
+  <main id="atlas">
+    <section class="introduction" aria-labelledby="page-title">
+      <div><p class="eyebrow">A companion to the Temperament Explorer</p><h1 id="page-title">Tuning, in place &amp; time.</h1><p class="lead">Follow the evidence. Explore a place, read its story, then hear the difference.</p></div>
+      <div class="intro-actions"><button id="share-button" class="quiet-button" type="button">Copy view link <span aria-hidden="true">↗</span></button><span id="share-status" class="share-status" role="status"></span></div>
+    </section>
+
+    <section class="time-controls" aria-label="Explore by year">
+      <div class="year-block"><label for="year-number" class="eyebrow">Around the year</label><input id="year-number" class="year-number" type="number" min="1500" max="1850" step="1" value="1722" aria-describedby="window-caption"></div>
+      <div class="scrubber">
+        <div class="scrubber-top"><span id="window-caption">1697–1747 · a 50-year window</span><div class="transport"><button id="previous-event" class="icon-button" type="button" aria-label="Previous milestone" title="Previous milestone">←</button><button id="play-button" class="play-button" type="button" aria-label="Play timeline" aria-pressed="false"><span aria-hidden="true">▶</span> <span id="play-label">Play</span></button><button id="next-event" class="icon-button" type="button" aria-label="Next milestone" title="Next milestone">→</button></div></div>
+        <input type="range" id="year-slider" min="1500" max="1850" step="1" value="1722" aria-label="Selected year" aria-describedby="window-caption">
+        <div class="range-labels" aria-hidden="true"><span>1500</span><span>1550</span><span>1600</span><span>1650</span><span>1700</span><span>1750</span><span>1800</span><span>1850</span></div>
+      </div>
+      <div class="window-control"><label for="window-size" class="field-label">Time window</label><select id="window-size"><option value="10">± 10 years</option><option value="25" selected>± 25 years</option><option value="50">± 50 years</option><option value="all">All dates</option></select><span class="small-muted">Dates mark evidence, not duration.</span></div>
+    </section>
+
+    <div class="filters" role="search" aria-label="Filter historical evidence">
+      <label class="search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search a person, place or tuning…" aria-label="Search a person, place or tuning" autocomplete="off"></label>
+      <label class="filter-select"><span class="field-label">Tuning family</span><select id="family-filter"><option value="all">All families</option><option value="meantone">Meantone</option><option value="unequal">Unequal / circulating</option><option value="equal">Equal / near-equal</option><option value="extended">Extended pitch systems</option><option value="other">Unspecified / context</option></select></label>
+      <label class="filter-select"><span class="field-label">Evidence</span><select id="evidence-filter"><option value="all">All evidence</option><option value="A">A · primary position</option><option value="B">B · reported evidence</option><option value="C">C · context</option><option value="A+B">A + B · mixed record</option><option value="open">Open research findings</option></select></label>
+      <button id="reset-button" class="quiet-button" type="button">Reset</button>
+    </div>
+
+    <div id="load-status" class="load-status" role="status">Loading the historical atlas…</div>
+    <div id="application" hidden>
+      <div class="atlas-layout">
+        <section class="map-panel" aria-labelledby="map-title">
+          <div class="panel-heading"><div><h2 id="map-title">Places of evidence</h2><p id="map-summary">Selected source locations in Europe</p></div><div class="map-tools" aria-label="Map zoom"><button id="zoom-in" class="icon-button" aria-label="Zoom map in" title="Zoom in">+</button><button id="zoom-out" class="icon-button" aria-label="Zoom map out" title="Zoom out">−</button><button id="zoom-reset" class="quiet-button" title="Reset map zoom">Fit</button></div></div>
+          <div class="map-stage" id="map-stage"><svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" aria-labelledby="map-accessible-title map-accessible-description"><title id="map-accessible-title">Historical tuning evidence in Europe</title><desc id="map-accessible-description">Interactive source locations. Brighter points have evidence inside the selected time window. Use Tab and Enter to open a place; the same records are listed below the map.</desc><image id="map-background" href="./assets/europe.svg" width="1000" height="660"></image><g id="map-markers"></g></svg><span class="map-hint">Drag to pan · + / − to zoom</span></div>
+          <div class="map-legend" aria-label="Tuning family colors"><span><i class="dot family-meantone"></i>Meantone</span><span><i class="dot family-unequal"></i>Unequal</span><span><i class="dot family-equal"></i>Equal / near-equal</span><span><i class="dot family-extended"></i>Extended</span><span><i class="dot family-other"></i>Context</span></div>
+          <p class="map-note">Points locate sources and musical contexts. They do not show national preferences or the spread of a tuning. <span class="faded-key">Faint points: outside your current filters.</span></p>
+        </section>
+        <aside class="detail-panel" id="detail-panel" aria-label="Selected historical evidence" tabindex="-1"><div id="detail-content"></div></aside>
+      </div>
+
+      <section class="timeline-panel" aria-labelledby="timeline-title">
+        <div class="panel-heading"><div><h2 id="timeline-title">A timeline of evidence</h2><p>Each point is a dated text, report or musical context. Select one to explore it.</p></div><span class="record-count" id="timeline-count">17 milestones</span></div>
+        <div class="timeline-scroll"><div id="timeline" class="timeline"></div></div>
+        <p class="timeline-note"><span class="evidence-key">A</span> Primary position <span class="evidence-key">B</span> Reported evidence <span class="evidence-key">C</span> Context <span class="approx-key">≈</span> Approximate date. A primary position may be accessed through later scholarship; see each record.</p>
+      </section>
+
+      <section class="records-section" aria-labelledby="records-title"><div class="section-heading"><div><p class="eyebrow" id="records-period">In this time window</p><h2 id="records-title">The evidence, up close.</h2></div><p id="results-count" role="status" aria-live="polite"></p></div><div id="event-list" class="event-grid"></div></section>
+
+      <details class="reference-section" id="people-section"><summary><span><span class="eyebrow">Beyond the dated milestones</span><span class="summary-title">People &amp; musical contexts</span></span><span class="summary-count" id="people-count">26 records</span></summary><div class="reference-content"><p class="section-description">The complete register includes undated testimony, repertoire contexts and open questions. It follows the search, family and evidence filters above, independently of the year slider. Dates describe the cited context, not a composer's lifetime or a tuning's period of use.</p><div id="people-list" class="people-grid"></div></div></details>
+
+      <details class="reference-section" id="sources-section"><summary><span><span class="eyebrow">How to read this atlas</span><span class="summary-title">Method, sources &amp; listening models</span></span><span class="summary-count" id="source-count">34 references</span></summary><div class="reference-content">
+        <div class="method-grid"><div><h3>Evidence has a place. Preference needs a source.</h3><p>A publication in Venice documents a text in Venice. It does not establish a uniform Venetian tuning. The timeline therefore shows dated evidence, with a movable viewing window, rather than fixed historical “reigns” of individual temperaments.</p><p>The map uses approximate modern city centers and a coastline without political boundaries. Rome has two source-location records at the same coordinates; they share one marker. Werckmeister's 1691 publication names Frankfurt and Leipzig and has no single map point in the source dataset.</p></div><div><h3>Hear a model, keep its limits in view.</h3><p>Listening links open the companion Temperament Explorer in a new tab, using its harpsichord sound. A link may present a numerical model supported by a text, a representative reconstruction, or a modern comparison. Its label tells you which.</p><p>Neither Bach's title <em>The Well-Tempered Clavier</em> nor the ability to play in every key determines a unique temperament. Equal division is not synonymous with “well-tempered.” Read the source note before attributing a listening model to a person.</p></div></div>
+        <div class="source-provenance" id="source-provenance"></div>
+        <div id="source-list" class="source-list"></div>
+      </div></details>
+    </div>
+    <noscript><p class="load-status">This interactive atlas needs JavaScript. The <a href="https://github.com/AdrianArtacho/Tuning/tree/main/sandbox/Preferences" target="_blank" rel="noopener noreferrer">original research and static maps</a> remain available.</p></noscript>
+  </main>
+  <footer><span>Concept &amp; research · <a href="https://github.com/AdrianArtacho" target="_blank" rel="noopener noreferrer">Adrián Artacho</a></span><span><a href="https://github.com/MUK-Labs/temperaments-chart" target="_blank" rel="noopener noreferrer">Source code ↗</a><span class="footer-divider">·</span>Coastline: Natural Earth, public domain</span></footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "projection": "spherical-mercator",
+  "width": 1000,
+  "height": 660,
+  "west": -15.0,
+  "east": 35.0,
+  "south": 36.0,
+  "north": 58.03257941133712,
+  "scale": 1145.9155902616465,
+  "northMercator": 1.2502341307849454,
+  "coordinateOrder": "longitude, latitude",
+  "formula": {
+    "x": "(longitude - west) * Math.PI / 180 * scale",
+    "y": "(northMercator - Math.log(Math.tan(Math.PI / 4 + latitude * Math.PI / 360))) * scale"
+  },
+  "source": "Natural Earth 1:110m land",
+  "sourceUrl": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+  "license": "public domain",
+  "note": "Current coastlines as geographic orientation; no historical borders or tuning territories."
+}

@@ -1,0 +1,6 @@
+.openai/
+.DS_Store
+node_modules/
+artifacts/qa/
+__pycache__/
+dist/

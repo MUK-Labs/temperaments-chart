@@ -1,0 +1,229 @@
+{
+  "title": "Datierte Belege, keine Epochen mit einheitlicher Stimmung",
+  "created": "2026-10-21",
+  "method": "Punkte markieren ausgewählte Texte oder Ereignisse. Ihre Verteilung ist keine Häufigkeits- oder Verbreitungsstatistik; ungefähre Daten tragen ausdrücklich „um“.",
+  "events": [
+    {
+      "id": "schlick1511",
+      "year": 1511,
+      "date_label": "1511",
+      "label": "Schlick: Orgeltraktat · Speyer",
+      "description": "Bibliographischer Kontext; kein Rezept geprüft",
+      "evidence": "C",
+      "verification_note": "Quellenrecord zu Titelseite und Druckprivileg bibliographisch geprüft; kein detailliertes Stimmungskapitel direkt verifiziert.",
+      "sources": [
+        "SCH1511"
+      ],
+      "location_id": "speyer",
+      "approximate_date": false
+    },
+    {
+      "id": "aron1523",
+      "year": 1523,
+      "date_label": "1523",
+      "label": "Aron · Venedig",
+      "description": "Praktische Stimmungsanweisung",
+      "evidence": "A",
+      "sources": [
+        "AAR1523"
+      ],
+      "location_id": "venedig",
+      "approximate_date": false
+    },
+    {
+      "id": "vicentino1555",
+      "year": 1555,
+      "date_label": "1555",
+      "label": "Vicentino · Rom",
+      "description": "Archicembalo und Vieltönigkeit",
+      "evidence": "A",
+      "sources": [
+        "VIC1555"
+      ],
+      "location_id": "rom1555",
+      "approximate_date": false
+    },
+    {
+      "id": "zarlino1558",
+      "year": 1558,
+      "date_label": "1558",
+      "label": "Zarlino · Venedig",
+      "description": "2/7-Komma-Mitteltönigkeit",
+      "evidence": "A",
+      "sources": [
+        "ZAR1558"
+      ],
+      "location_id": "venedig",
+      "approximate_date": false
+    },
+    {
+      "id": "salinas1577",
+      "year": 1577,
+      "date_label": "1577",
+      "label": "Salinas · Salamanca",
+      "description": "Drei mitteltönige Varianten",
+      "evidence": "A",
+      "sources": [
+        "SAL1577"
+      ],
+      "location_id": "salamanca",
+      "approximate_date": false
+    },
+    {
+      "id": "galilei1581",
+      "year": 1581,
+      "date_label": "1581",
+      "label": "Galilei · Florenz",
+      "description": "Bundsetzung und Hörgewohnheit",
+      "evidence": "A",
+      "sources": [
+        "GAL1581"
+      ],
+      "location_id": "florenz",
+      "approximate_date": false
+    },
+    {
+      "id": "sweelinck1600",
+      "year": 1600,
+      "date_label": "um 1600",
+      "label": "Sweelinck · Amsterdam",
+      "description": "Repertoirekontext; kein persönliches Rezept",
+      "evidence": "C",
+      "sources": [
+        "ORT2007"
+      ],
+      "location_id": "amsterdam",
+      "approximate_date": true
+    },
+    {
+      "id": "frescobaldi1640",
+      "year": 1640,
+      "date_label": "um 1640",
+      "label": "Frescobaldi · Rom",
+      "description": "Doni berichtet Zustimmung zur Gleichstufigkeit",
+      "evidence": "B",
+      "sources": [
+        "BAR1983"
+      ],
+      "location_id": "rom1640",
+      "approximate_date": true
+    },
+    {
+      "id": "werckmeister1691",
+      "year": 1691,
+      "date_label": "1691",
+      "label": "Werckmeister · Frankfurt / Leipzig",
+      "description": "Mehrere ungleiche Temperaturen",
+      "evidence": "A",
+      "sources": [
+        "WER1691"
+      ],
+      "location_id": null,
+      "approximate_date": false
+    },
+    {
+      "id": "werckmeister1707",
+      "year": 1707,
+      "date_label": "1707",
+      "label": "Werckmeister · Quedlinburg",
+      "description": "Späte Schrift: gleiche Teilung",
+      "evidence": "A",
+      "sources": [
+        "WER1707"
+      ],
+      "location_id": "quedlinburg",
+      "approximate_date": false
+    },
+    {
+      "id": "bach1722",
+      "year": 1722,
+      "date_label": "1722",
+      "label": "J. S. Bach · Köthen",
+      "description": "Wohltemperiertes Clavier: Titel, kein Rezept",
+      "evidence": "C",
+      "sources": [
+        "JSB1722"
+      ],
+      "location_id": "koethen",
+      "approximate_date": false
+    },
+    {
+      "id": "neidhardt1724",
+      "year": 1724,
+      "date_label": "1724",
+      "label": "Neidhardt · Königsberg",
+      "description": "Mehrere Temperaturvorschläge",
+      "evidence": "A",
+      "sources": [
+        "NEI1724"
+      ],
+      "location_id": "koenigsberg",
+      "approximate_date": false
+    },
+    {
+      "id": "rameau1726",
+      "year": 1726,
+      "date_label": "1726",
+      "label": "Rameau · Paris",
+      "description": "Ungleiche Temperatur",
+      "evidence": "A",
+      "sources": [
+        "RAM1726"
+      ],
+      "location_id": "paris",
+      "approximate_date": false
+    },
+    {
+      "id": "rameau1737",
+      "year": 1737,
+      "date_label": "1737",
+      "label": "Rameau · Paris",
+      "description": "Befürwortung gleicher Teilung",
+      "evidence": "A",
+      "sources": [
+        "RAM1737"
+      ],
+      "location_id": "paris",
+      "approximate_date": false
+    },
+    {
+      "id": "cpe1753",
+      "year": 1753,
+      "date_label": "1753",
+      "label": "C. P. E. Bach · Berlin",
+      "description": "Praktische Regel ohne eindeutige Centtabelle",
+      "evidence": "A",
+      "sources": [
+        "CPE1753"
+      ],
+      "location_id": "berlin",
+      "approximate_date": false
+    },
+    {
+      "id": "luebeck1782",
+      "year": 1782,
+      "date_label": "1782",
+      "label": "Orgelvertrag · Lübeck",
+      "description": "Gleichstufigkeit; lange nach Buxtehude",
+      "evidence": "B",
+      "sources": [
+        "SNY2009"
+      ],
+      "location_id": "luebeck",
+      "approximate_date": false
+    },
+    {
+      "id": "montal1834",
+      "year": 1834,
+      "date_label": "1834",
+      "label": "Montal · Paris",
+      "description": "Gleichstufiges Klavierstimmverfahren",
+      "evidence": "A",
+      "sources": [
+        "MON1834"
+      ],
+      "location_id": "paris",
+      "approximate_date": false
+    }
+  ]
+}

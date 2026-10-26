@@ -1,0 +1,13 @@
+{
+  "name": "temperaments-chart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A source-based interactive atlas of historical tuning, for GitHub Pages.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check app.js && node --check core.js && node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

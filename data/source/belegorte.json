@@ -1,0 +1,251 @@
+{
+  "title": "Ausgewählte Belegorte, keine Verbreitungsstatistik",
+  "created": "2026-10-21",
+  "coordinate_note": "Ungefähre Koordinaten heutiger Stadtzentren. Keine historischen Grenzen oder Übertragungsrouten.",
+  "evidence": {
+    "A": "Vorschrift oder Position im Primärtext",
+    "B": "Bericht oder Dokument über Forschung vermittelt",
+    "C": "Bibliographischer, Repertoire- oder Werkkontext; keine hier geprüfte Stimmvorschrift"
+  },
+  "map_note": "Ein Punkt kann mehrere zeitlich verschiedene Quellen enthalten. Publikationsort ist kein Nachweis regionaler Verbreitung.",
+  "locations": [
+    {
+      "id": "speyer",
+      "city": "Speyer",
+      "latitude": 49.3173,
+      "longitude": 8.4412,
+      "era": "renaissance",
+      "label": "1511",
+      "description": "Schlick: Orgeltraktat",
+      "location_role": "Publikationsort (Katalog)",
+      "evidence": "C",
+      "verification_note": "Quellenrecord zu Titelseite und Druckprivileg bibliographisch geprüft; kein detailliertes Stimmungskapitel direkt verifiziert.",
+      "sources": [
+        "SCH1511"
+      ],
+      "label_position": [
+        11.0,
+        50.2
+      ]
+    },
+    {
+      "id": "venedig",
+      "city": "Venedig",
+      "latitude": 45.4408,
+      "longitude": 12.3155,
+      "era": "renaissance",
+      "label": "1523 / 1558",
+      "description": "Aron / Zarlino: verschiedene Rezepte",
+      "location_role": "Publikationsort",
+      "evidence": "A",
+      "sources": [
+        "AAR1523",
+        "ZAR1558"
+      ],
+      "label_position": [
+        17.0,
+        46.3
+      ]
+    },
+    {
+      "id": "rom1555",
+      "city": "Rom",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
+      "era": "renaissance",
+      "label": "1555",
+      "description": "Vicentino: Archicembalo",
+      "location_role": "Publikationsort",
+      "evidence": "A",
+      "sources": [
+        "VIC1555"
+      ],
+      "label_position": [
+        17.0,
+        40.2
+      ]
+    },
+    {
+      "id": "salamanca",
+      "city": "Salamanca",
+      "latitude": 40.9701,
+      "longitude": -5.6635,
+      "era": "renaissance",
+      "label": "1577",
+      "description": "Salinas: drei mitteltönige Varianten",
+      "location_role": "Publikationsort",
+      "evidence": "A",
+      "sources": [
+        "SAL1577"
+      ],
+      "label_position": [
+        -8.0,
+        37.6
+      ]
+    },
+    {
+      "id": "florenz",
+      "city": "Florenz",
+      "latitude": 43.7696,
+      "longitude": 11.2558,
+      "era": "renaissance",
+      "label": "1581",
+      "description": "Galilei: Bund- und Tasteninstrumente",
+      "location_role": "Publikationsort",
+      "evidence": "A",
+      "sources": [
+        "GAL1581"
+      ],
+      "label_position": [
+        3.5,
+        42.5
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "city": "Amsterdam",
+      "latitude": 52.3676,
+      "longitude": 4.9041,
+      "era": "renaissance",
+      "label": "um 1600",
+      "description": "Sweelinck: Repertoirekontext",
+      "location_role": "Wirkungsort; keine Stimmvorschrift",
+      "evidence": "C",
+      "sources": [
+        "ORT2007"
+      ],
+      "label_position": [
+        0.8,
+        55.3
+      ]
+    },
+    {
+      "id": "rom1640",
+      "city": "Rom",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
+      "era": "barock",
+      "label": "um 1640",
+      "description": "Frescobaldi: Donis Zeugnis",
+      "location_role": "Berichteter Schauplatz",
+      "evidence": "B",
+      "sources": [
+        "BAR1983"
+      ],
+      "label_position": [
+        17.0,
+        40.0
+      ]
+    },
+    {
+      "id": "paris",
+      "city": "Paris",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "era": "barock",
+      "label": "1726 / 1737 / 1834",
+      "description": "Rameau / Montal: Textpositionen",
+      "location_role": "Publikationsort",
+      "evidence": "A",
+      "sources": [
+        "RAM1726",
+        "RAM1737",
+        "MON1834"
+      ],
+      "label_position": [
+        -3.0,
+        48.3
+      ]
+    },
+    {
+      "id": "quedlinburg",
+      "city": "Quedlinburg",
+      "latitude": 51.785,
+      "longitude": 11.151,
+      "era": "barock",
+      "label": "1707",
+      "description": "Werckmeister: späte Textposition",
+      "location_role": "Publikationsort",
+      "evidence": "A",
+      "sources": [
+        "WER1707"
+      ],
+      "label_position": [
+        5.5,
+        50.8
+      ]
+    },
+    {
+      "id": "koethen",
+      "city": "Köthen",
+      "latitude": 51.7518,
+      "longitude": 11.9775,
+      "era": "barock",
+      "label": "1722",
+      "description": "Bach: Werkprojekt, kein Rezept",
+      "location_role": "Werkentstehungsort",
+      "evidence": "C",
+      "sources": [
+        "JSB1722"
+      ],
+      "label_position": [
+        16.2,
+        48.9
+      ]
+    },
+    {
+      "id": "berlin",
+      "city": "Berlin",
+      "latitude": 52.52,
+      "longitude": 13.405,
+      "era": "barock",
+      "label": "1753",
+      "description": "C. P. E. Bach: Stimmungsregel",
+      "location_role": "Publikationsort",
+      "evidence": "A",
+      "sources": [
+        "CPE1753"
+      ],
+      "label_position": [
+        18.5,
+        52.7
+      ]
+    },
+    {
+      "id": "koenigsberg",
+      "city": "Königsberg",
+      "latitude": 54.7104,
+      "longitude": 20.4522,
+      "era": "barock",
+      "label": "1724",
+      "description": "Neidhardt: mehrere Temperaturen",
+      "location_role": "Publikationsort; heute Kaliningrad",
+      "evidence": "A",
+      "sources": [
+        "NEI1724"
+      ],
+      "label_position": [
+        25.5,
+        56.5
+      ]
+    },
+    {
+      "id": "luebeck",
+      "city": "Lübeck",
+      "latitude": 53.8655,
+      "longitude": 10.6866,
+      "era": "barock",
+      "label": "1782",
+      "description": "Orgelvertrag: Gleichstufigkeit",
+      "location_role": "Institutioneller Beleg; nach Buxtehude",
+      "evidence": "B",
+      "sources": [
+        "SNY2009"
+      ],
+      "label_position": [
+        9.0,
+        56.8
+      ]
+    }
+  ]
+}

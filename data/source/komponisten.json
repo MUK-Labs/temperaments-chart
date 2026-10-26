@@ -1,0 +1,449 @@
+[
+  {
+    "id": "aron_1523",
+    "person": "Pietro Aron (Aaron)",
+    "role": "Musiktheoretiker und Komponist",
+    "dates": "1523 (Quelle)",
+    "place": "Venedig (Publikation)",
+    "period": "Renaissance",
+    "evidence": "A",
+    "finding": "Seine Stimmanweisung verlangt eine reine große Terz C–E und verengte Quinten. Sie belegt eine mitteltönige Orientierung, aber keine vollständig eindeutige moderne Centtabelle.",
+    "sources": [
+      "AAR1523"
+    ],
+    "locator": "Buch II, Kap. 41; Ausgabe 1523, S. 106–107",
+    "practical": "R (unsere Empfehlung): Viertelkomma-Mitteltönigkeit als Vergleichsrekonstruktion testen; Stimmweg und verfügbaren Tonvorrat dokumentieren.",
+    "limit": "Weder Erfinderschaft noch ein lebenslang ausschließlich verwendetes numerisches System ist dadurch belegt.",
+    "source_status": "Primärtext in der digitalen kritischen TMI-Edition geprüft; verschiedene Editionspaginierungen unterschieden."
+  },
+  {
+    "id": "vicentino_1555",
+    "person": "Nicola Vicentino",
+    "role": "Komponist, Theoretiker und Instrumentenerfinder",
+    "dates": "1555 (Quelle)",
+    "place": "Rom (Publikation)",
+    "period": "Renaissance",
+    "evidence": "A",
+    "finding": "Beschreibt ein Archicembalo mit 36 physischen Tasten je Oktave und differenzierten Tonhöhen. Die Gleichsetzung seiner gesamten Konzeption mit einem einzigen exakten 31-EDO-System ist umstritten.",
+    "sources": [
+      "VIC1555",
+      "KIR2026"
+    ],
+    "locator": "VIC1555: Buch V, fol. 99r–100r und folgende Stimmungsanweisungen; KIR2026: Diskussion von Buch V und neueren Deutungen",
+    "practical": "R (unsere Empfehlung): Erweiterte Tonvorräte anhand konkreter Anweisungen demonstrieren; 31-EDO ausdrücklich als modernes Vergleichsmodell kennzeichnen.",
+    "limit": "Tastenzahl, Tonhöhenzahl und gleichmäßige Oktavteilung sind verschiedene Sachverhalte; kein unstrittiges einziges Preset.",
+    "source_status": "Digitalisatnachweis und Lokalisierung geprüft; Detailinterpretation mit Kirnbauers vollständig zugänglichem Forschungsbeitrag abgeglichen."
+  },
+  {
+    "id": "zarlino_1558",
+    "person": "Gioseffo Zarlino",
+    "role": "Komponist und Musiktheoretiker",
+    "dates": "1558 (untersuchte Ausgabe)",
+    "place": "Venedig (Publikation)",
+    "period": "Renaissance",
+    "evidence": "A",
+    "finding": "Schreibt vor, jede Quinte um zwei Siebtel des syntonischen Kommas zu verengen. Für diese Ausgabe ist die Befürwortung der Zweisiebtelkomma-Mitteltönigkeit ausdrücklich belegt.",
+    "sources": [
+      "ZAR1558"
+    ],
+    "locator": "Teil II, Kap. 42, S. 126–127; mathematische Fortsetzung Kap. 43, S. 128",
+    "practical": "R (unsere Empfehlung): Zweisiebtelkomma- und Viertelkomma-Mitteltönigkeit vergleichen; die untersuchte Ausgabe stets angeben.",
+    "limit": "Die datierte theoretische Vorschrift belegt weder sämtliche Aufführungen seiner Musik noch eine unveränderte lebenslange Position.",
+    "source_status": "Quantifizierte Primärtextpassage in der TMI-Edition mit Seitenmarken unmittelbar geprüft."
+  },
+  {
+    "id": "salinas_1577",
+    "person": "Francisco de Salinas",
+    "role": "Organist und Musiktheoretiker",
+    "dates": "1577 (Quelle)",
+    "place": "Salamanca (Publikation)",
+    "period": "Renaissance",
+    "evidence": "A",
+    "finding": "Vergleicht Drittelkomma-, Zweisiebtelkomma- und Viertelkomma-Mitteltönigkeit. Viertelkomma erscheint ihm leichter verständlich und günstiger für den Instrumentenbau; zugleich behandelt er alle drei als brauchbare Verfahren.",
+    "sources": [
+      "SAL1577"
+    ],
+    "locator": "Buch III, Kap. 15, S. 143; Kap. 22, S. 154–155; Kap. 26, S. 163–164",
+    "practical": "R (unsere Empfehlung): Alle drei Varianten am gleichen Beispiel vergleichen und Reinheit, Spielbarkeit sowie Konstruktion getrennt beurteilen.",
+    "limit": "Ein einziges Etikett „Salinas-Stimmung“ verdeckt seinen Vergleich; keine einheitliche spanische Praxis daraus ableiten.",
+    "source_status": "TML-Transkription im gekennzeichneten Fenyx-Spiegel einschließlich Quellenkopf und Seitenmarken gelesen; Originalscan nicht separat kollationiert."
+  },
+  {
+    "id": "galilei_1581",
+    "person": "Vincenzo Galilei",
+    "role": "Lautenist, Komponist und Musiktheoretiker",
+    "dates": "1581 (Quelle)",
+    "place": "Florenz (Publikation)",
+    "period": "Renaissance",
+    "evidence": "A",
+    "finding": "Unterscheidet Lauten- und Tastenstimmung, diskutiert Hörgewohnheit und beschreibt eine angenäherte gleiche Halbtonteilung durch die 18:17-Regel der Bundsetzung.",
+    "sources": [
+      "GAL1581"
+    ],
+    "locator": "Dialogo, S. 47–49; Bundsetzungsregel und Abweichung besonders S. 49",
+    "practical": "R (unsere Empfehlung): Gleiche Intervalle mit gezupftem und gehaltenem Klang vergleichen; die historische 18:17-Näherung gesondert demonstrieren.",
+    "limit": "18:17 ist keine mathematisch exakte Zwölfteilung; eine Lautenregel gilt nicht automatisch für sämtliche Tasteninstrumente desselben Ortes.",
+    "source_status": "Primärtext der TMI-Edition zu Gewöhnung, Klangerzeugung und Bundsetzung unmittelbar geprüft."
+  },
+  {
+    "id": "stevin_um1600",
+    "person": "Simon Stevin",
+    "role": "Mathematiker und Musiktheoretiker",
+    "dates": "um 1600 (undatierte, unveröffentlichte Handschrift); Edition 1966",
+    "place": "Niederlande (genauer Entstehungsort nicht gesichert)",
+    "period": "Renaissance und Frühbarock",
+    "evidence": "A",
+    "finding": "Formuliert die gleiche Teilung der Oktave mathematisch. Die zu Lebzeiten unveröffentlichte Schrift belegt eine theoretische Konzeption vor Bach, keine gemessene regionale Aufführungspraxis.",
+    "sources": [
+      "STE1600"
+    ],
+    "locator": "The Principal Works of Simon Stevin, Bd. V (1966), S. 413–464, besonders S. 427",
+    "practical": "R (unsere Empfehlung): Zwölfte Wurzeln und gleiche Halbtonschritte demonstrieren; Theoriegeschichte von praktischer Verbreitung trennen.",
+    "limit": "Die genaue Datierung ist unsicher; weder 1585 als Publikationsjahr dieser Schrift noch ein bestimmter Entstehungsort ist gesichert.",
+    "source_status": "Englische Edition beziehungsweise Übersetzung von 1966 und Einleitung zur Überlieferung gelesen; Handschrift nicht selbst untersucht."
+  },
+  {
+    "id": "byrd_repertoire",
+    "person": "William Byrd",
+    "role": "Komponist und Tastenmusiker",
+    "dates": "spätes 16. und frühes 17. Jahrhundert (Repertoire)",
+    "place": "England (Repertoirekontext; kein einzelner Stimmungsort)",
+    "period": "Renaissance und Frühbarock",
+    "evidence": "C",
+    "finding": "Meffens Repertoireuntersuchung stützt Viertelkomma-Mitteltönigkeit als Kontexthypothese. Eine persönliche numerische Stimmanweisung Byrds wird damit nicht nachgewiesen.",
+    "sources": [
+      "MEF1973"
+    ],
+    "locator": "Schlussdiskussion, S. 109–112, im Zusammenhang mit den vorausgehenden Repertoireanalysen",
+    "practical": "R (unsere Empfehlung): Viertelkomma-Mitteltönigkeit als Ausgangspunkt testen; ungewöhnliche Vorzeichen und mögliche Umstimmungen werkbezogen prüfen.",
+    "limit": "Eine moderne Schlussfolgerung aus Repertoire ist kein Selbstzeugnis; Ausnahmen dürfen nicht zugunsten eines Presets übergangen werden.",
+    "source_status": "Originaldissertation heruntergeladen; relevante Schlussseiten gelesen. Ältere Forschung als argumentierte Rekonstruktion gekennzeichnet."
+  },
+  {
+    "id": "sweelinck_repertoire",
+    "person": "Jan Pieterszoon Sweelinck",
+    "role": "Organist und Komponist",
+    "dates": "bis 1621 (Repertoire- und Instrumentenkontext)",
+    "place": "Amsterdam, insbesondere Oude Kerk (Instrumentenkontext)",
+    "period": "Renaissance und Frühbarock",
+    "evidence": "C",
+    "finding": "Der von Ortgies referierte Tonvorrat spricht für einen mitteltönigen Kontext. Hypothetische geteilte Obertasten der Oude Kerk sind dadurch nicht dokumentarisch nachgewiesen.",
+    "sources": [
+      "ORT2007"
+    ],
+    "locator": "Gedruckte S. 160, Anm. 265; dort Dirksen 1997, S. 576",
+    "practical": "R (unsere Empfehlung): Mitteltönigkeit erproben; seltene Tonhöhen und angenommene Zusatzmöglichkeiten des jeweiligen Instruments einzeln begründen.",
+    "limit": "Kein persönliches numerisches Rezept; Dirksens Originalmonographie wurde hier nicht selbst eingesehen.",
+    "source_status": "Ortgies' relevante Passage der korrigierten Dissertation gelesen; Dirksen ausdrücklich als darin zitierte Forschung behandelt."
+  },
+  {
+    "id": "monteverdi_repertoire",
+    "person": "Claudio Monteverdi",
+    "role": "Komponist; vokaler und instrumentaler Ensemblekontext",
+    "dates": "um 1600–1643 (Repertoire); Forschung 2020",
+    "place": "Mantua und Venedig (Wirkungs- und Repertoirekontext)",
+    "period": "Frühbarock",
+    "evidence": "C",
+    "finding": "Levenbergs Abstract argumentiert für einen mitteltönigen Deutungskontext und nennt fehlende Stimmungsanweisungen Monteverdis. Daraus ergibt sich keine überprüfte individuelle Rezeptur.",
+    "sources": [
+      "LEV2020"
+    ],
+    "locator": "Institutionelles Abstract; Verlagsmetadaten zu Acta Musicologica 92/1 (2020), S. 21–41",
+    "practical": "R (unsere Empfehlung): Anpassbare Vokalintonation und fest gestimmte Begleitung getrennt untersuchen; Hörversuche als heutige Rekonstruktion kennzeichnen.",
+    "limit": "Keine Detailbehauptung aus dem unzugänglichen Volltext; ein Keyboard-Preset darf nicht allen Singstimmen zugeschrieben werden.",
+    "source_status": "Nur Verlagsmetadaten und institutionelles Abstract geprüft, kein Artikelvolltext. Abweichende Bandangabe im institutionellen Katalog anhand des Verlags korrigiert."
+  },
+  {
+    "id": "bull_hexachord",
+    "person": "John Bull",
+    "role": "Organist und Komponist",
+    "dates": "vor 1628 (Werk); genaue Entstehung nicht festgelegt",
+    "place": "England und Antwerpen (Wirkungskontext; Werkentstehungsort hier offen)",
+    "period": "Frühbarock",
+    "evidence": "C",
+    "finding": "Die Hexachordfantasie BuK17 führte zu konkurrierenden Deutungen: Meffen erwägt neunzehn Töne, Schulenberg betont enharmonische Gleichsetzung und zirkulierende Lösungen. Das Werk erzwingt keine eindeutige Gleichstufigkeit.",
+    "sources": [
+      "MEF1973",
+      "SCH2005"
+    ],
+    "locator": "MEF1973: S. 106–111; SCH2005: Abschnitt 4.5 und Anm. 12, besonders Takt 20",
+    "practical": "R (unsere Empfehlung): Eine ungleiche zirkulierende Stimmung und Gleichstufigkeit vergleichen; Notation und enharmonische Umdeutung dabei ausdrücklich prüfen.",
+    "limit": "Die konkurrierenden Rekonstruktionen belegen weder ein bestimmtes Instrument noch Bulls persönliche Lieblingsstimmung.",
+    "source_status": "Meffens Dissertation und Schulenbergs relevante Volltextpassage gelesen; historische Stimmanweisung Bulls nicht belegt."
+  },
+  {
+    "id": "frescobaldi_spaet",
+    "person": "Girolamo Frescobaldi",
+    "role": "Organist und Komponist",
+    "dates": "um 1638–1643 (berichteter später Kontext)",
+    "place": "Rom (berichtete Praxis)",
+    "period": "Frühbarock",
+    "evidence": "B",
+    "finding": "Barbieri erschließt Donis parteilichen Bericht über Frescobaldis späte Zustimmung zur Gleichstufigkeit. Das ist Fremdzeugnis, keine eigenhändige Vorschrift.",
+    "sources": [
+      "BAR1983"
+    ],
+    "locator": "S. 144–145; Donis dort erschlossenes Zeugnis",
+    "practical": "R (unsere Empfehlung): Werkdatierung beachten; mitteltönige und zirkulierende Lösungen anhand konkreter chromatischer Stellen vergleichen.",
+    "limit": "Nicht auf das gesamte frühere Tastenwerk zurückprojizieren.",
+    "source_status": "Barbieris Druckseiten gelesen; Donis Originalhandschrift nicht eingesehen."
+  },
+  {
+    "id": "valentini_um1643",
+    "person": "Pier Francesco Valentini",
+    "role": "Komponist und Kontrapunktlehrer",
+    "dates": "um 1642–1645 (Handschriften)",
+    "place": "Rom (Manuskript- und Versuchskontext)",
+    "period": "Frühbarock",
+    "evidence": "A",
+    "finding": "Nach Barbieris Handschriftenauswertung beansprucht Valentini eine gleichstufige Lösung und beschreibt Verfahren sowie Monochord.",
+    "sources": [
+      "BAR1983"
+    ],
+    "locator": "S. 145; dort ausgewertete Handschriften Valentinis",
+    "practical": "R (unsere Empfehlung): Gleichstufigkeit als dokumentierte Zielsetzung vergleichen; die konkrete historische Realisierung separat untersuchen.",
+    "limit": "A bezeichnet seine Vorschrift, die hier nur mittelbar zugänglich ist.",
+    "source_status": "Barbieris Analyse gelesen; Originalhandschriften nicht geprüft."
+  },
+  {
+    "id": "louis_couperin_repertoire",
+    "person": "Louis Couperin",
+    "role": "Komponist und Tastenmusiker",
+    "dates": "Mitte des 17. Jahrhunderts (Repertoire)",
+    "place": "Paris (Repertoirekontext)",
+    "period": "Barock",
+    "evidence": "C",
+    "finding": "Lindley behandelt unter anderem die Fis-Moll-Pavane im Zusammenhang mit französischen ungleichen Stimmungen. Diese analytische Zuordnung ist keine überlieferte persönliche Stimmanweisung.",
+    "sources": [
+      "LINFR"
+    ],
+    "locator": "Abschnitt 6, The French Background; Werkbeispiele Louis Couperins und Einordnung der Vergleichsaufführungen",
+    "practical": "R (unsere Empfehlung): Eine französische ungleiche Rekonstruktion vergleichend hören; verwendete historische Beschreibung und moderne Umsetzung offenlegen.",
+    "limit": "Plausible Intervallwirkungen beweisen keine exklusive Präferenz; Louis und François Couperin sind quellenkritisch getrennt zu behandeln.",
+    "source_status": "Institutionelle Online-Fassung gelesen. Volltext des dort verlinkten Early-Music-Artikels von 2013 nicht separat zugänglich."
+  },
+  {
+    "id": "buxtehude_luebeck",
+    "person": "Dieterich Buxtehude",
+    "role": "Organist und Komponist",
+    "dates": "1668–1707 (Lübecker Wirkungskontext)",
+    "place": "Lübeck, St. Marien (Orgelkontext)",
+    "period": "Barock",
+    "evidence": "C",
+    "finding": "Snyder widerruft die frühere Zuordnung von Werckmeister III zur Lübecker Umstimmung 1683. Die genaue Temperatur während Buxtehudes Amtszeit bleibt offen.",
+    "sources": [
+      "SNY2009"
+    ],
+    "locator": "Abschnitte 5.1–5.2; Anm. 23–25",
+    "practical": "R (unsere Empfehlung): Konkrete Orgel, Werküberlieferung und Tonarten prüfen; mehrere historische Lösungen als Alternativen behandeln.",
+    "limit": "Der ausdrücklich gleichstufige Vertrag von 1782 liegt nach Buxtehudes Lebenszeit.",
+    "source_status": "Snyders Korrektur im Volltext geprüft; der von ihr angeführte Vertragsoriginaltext nicht separat eingesehen."
+  },
+  {
+    "id": "werckmeister_1707",
+    "person": "Andreas Werckmeister",
+    "role": "Organist, Komponist und Musiktheoretiker",
+    "dates": "1707 (postume Quelle)",
+    "place": "Quedlinburg (Publikation)",
+    "period": "Barock",
+    "evidence": "A",
+    "finding": "Befürwortet gleichmäßige Verengung aller Quinten, lässt aber weiterhin reinere diatonische Terzen als Möglichkeit zu. Eine ausschließliche späte Festlegung auf Gleichstufigkeit wäre zu stark.",
+    "sources": [
+      "WER1707"
+    ],
+    "locator": "Musicalische Paradoxal-Discourse, S. 112–113",
+    "practical": "R (unsere Empfehlung): Rezeptur und Ausgabe benennen; ungleiche zirkulierende Systeme und Gleichstufigkeit als getrennte Möglichkeiten vergleichen.",
+    "limit": "Die Aussage ersetzt nicht die unterschiedlichen früheren Vorschläge; es gibt kein einziges zeitloses „Werckmeister-System“.",
+    "source_status": "Reproduzierte Originalseiten 112–113 visuell gelesen; Textinterpretation mit Lindleys Quellenkommentar abgeglichen."
+  },
+  {
+    "id": "francois_couperin_zeugnis",
+    "person": "François Couperin (übliche Identifizierung)",
+    "role": "Komponist und Tastenmusiker",
+    "dates": "berichtetes Ereignis undatiert; Rousseaus Veröffentlichung 1768",
+    "place": "Paris (Publikation des späteren Zeugnisses)",
+    "period": "Barock; späteres Zeugnis",
+    "evidence": "B",
+    "finding": "Rousseau berichtet, der berühmte Couperin habe die gleichstufige Methode vorgeschlagen und wieder aufgegeben. Der Text nennt weder Vornamen noch Ereignisdatum oder genaue Ersatzstimmung.",
+    "sources": [
+      "ROU1768"
+    ],
+    "locator": "Dictionnaire de musique, Ausgabe Paris 1768, Artikel Tempérament, S. 503",
+    "practical": "R (unsere Empfehlung): Französische ungleiche Lösungen werkbezogen vergleichen; Rousseaus Aussage als spätes Fremdzeugnis kennzeichnen.",
+    "limit": "Kein Selbstzeugnis und keine Centtabelle; die übliche Identifizierung darf die Ungenauigkeit des Wortlauts nicht verdecken.",
+    "source_status": "Originalausgabe per OCR und spätere wissenschaftliche Transkription gegengeprüft; S. 711 gehört zur späteren Werkausgabe, nicht zu 1768."
+  },
+  {
+    "id": "jsbach_wohltemperiert",
+    "person": "Johann Sebastian Bach",
+    "role": "Komponist, Organist und Tastenmusiker",
+    "dates": "1722 (Wohltemperiertes Clavier I); Zeugnisse 1754, 1776 und 1802",
+    "place": "Köthen (Werkzusammenhang 1722); Leipzig und Breslau (spätere Publikationen)",
+    "period": "Barock",
+    "evidence": "A+B",
+    "finding": "Werk und spätere Zeugnisse stützen die Nutzbarkeit aller Tonarten. Marpurg berichtet über Kirnberger: Alle großen Terzen sollten weiter als rein sein. Daraus folgt keine eindeutige numerische Rezeptur.",
+    "sources": [
+      "JSB1722",
+      "NEK1754",
+      "MAR1776",
+      "FOR1802"
+    ],
+    "locator": "JSB1722: Titel und Anlage; NEK1754: S. 173; MAR1776: §228, S. 213; FOR1802: S. 17",
+    "practical": "R (unsere Empfehlung): Milde ungleiche zirkulierende Stimmungen und Gleichstufigkeit vergleichen; konkrete Quellenhypothese statt „Bachs einzigem Temperament“ angeben.",
+    "limit": "A betrifft das Werk, B die Berichte. Alle Terzen größer als rein bedeutet nicht: alle Terzen gleich groß.",
+    "source_status": "Autograph-Titel und Marpurg S. 213 am Originalbild geprüft; Nekrolog und Forkel in Transkription gelesen. Kein numerisches Rezept im konsultierten Material."
+  },
+  {
+    "id": "neidhardt_1724",
+    "person": "Johann Georg Neidhardt",
+    "role": "Organist und Musiktheoretiker",
+    "dates": "1724 (untersuchte Ausgabe)",
+    "place": "Königsberg (Publikation)",
+    "period": "Barock",
+    "evidence": "A",
+    "finding": "Ordnet unterschiedliche ungleiche Verfahren Dorf, kleiner Stadt und großer Stadt zu; Gleichstufigkeit empfiehlt er für den Hof. Es handelt sich um normative Kontextunterscheidungen.",
+    "sources": [
+      "NEI1724"
+    ],
+    "locator": "Sectio Canonis Harmonici, numerische Systeme S. 16–18; Zuordnungen S. 20",
+    "practical": "R (unsere Empfehlung): Rezepturen derselben Ausgabe vergleichen und musikalischen Anspruch, Instrument sowie Modulationsbedarf als Kriterien benennen.",
+    "limit": "Die Ortsgrößen sind Empfehlungen, keine empirische Verbreitungskarte und kein Beleg für Bachs Wahl; spätere Ausgaben unterscheiden sich.",
+    "source_status": "Primärtranskription gelesen; Passage S. 20 mit Norrbacks wissenschaftlicher Wiedergabe abgeglichen. Originalscan nicht vollständig kollationiert."
+  },
+  {
+    "id": "rameau_1726",
+    "person": "Jean-Philippe Rameau",
+    "role": "Komponist und Musiktheoretiker",
+    "dates": "1726 (erste hier untersuchte Position)",
+    "place": "Paris (Publikation)",
+    "period": "Barock",
+    "evidence": "A",
+    "finding": "Beschreibt eine ungleiche, modifiziert mitteltönige Tastaturstimmung und begründet Ausdrucksmöglichkeiten unterschiedlich veränderter Intervalle. Der Text verbindet Zahlenverhältnisse, Experiment und gewohnte Praxis.",
+    "sources": [
+      "RAM1726"
+    ],
+    "locator": "Nouveau systême, Kap. XXIV, S. 107–111, besonders S. 109–110",
+    "practical": "R (unsere Empfehlung): Eine ausdrücklich dokumentierte Rekonstruktion mit regulärer Mitteltönigkeit vergleichen; interpretierte Teile der Zahlenbeschreibung offenlegen.",
+    "limit": "Kein zweifelsfrei einziges modernes „Rameau“-Preset; diese datierte Position ist von seiner Empfehlung 1737 zu unterscheiden.",
+    "source_status": "Originaltext per OCR gelesen und mit wissenschaftlicher Transkription gegengeprüft. Numerische Interpretationsspielräume ausdrücklich beibehalten."
+  },
+  {
+    "id": "rameau_1737",
+    "person": "Jean-Philippe Rameau",
+    "role": "Komponist und Musiktheoretiker",
+    "dates": "1737 (geänderte Position)",
+    "place": "Paris (Publikation)",
+    "period": "Barock",
+    "evidence": "A",
+    "finding": "Fordert gleiche Halbtöne, distanziert sich von früherer Rücksicht auf den üblichen Gebrauch und verlangt Gewöhnung an die neue Temperatur. Seine theoretische Befürwortung der Gleichstufigkeit ist ausdrücklich.",
+    "sources": [
+      "RAM1737"
+    ],
+    "locator": "Génération harmonique, Kap. VII; S. 95–96, 100, 103–104",
+    "practical": "R (unsere Empfehlung): Gleichstufigkeit als historisch begründeten Vergleich dieser späteren Position einsetzen; frühere Werke gesondert beurteilen.",
+    "limit": "Die Empfehlung beweist weder sofortige allgemeine Anwendung in Paris noch die Entstehungsstimmung seines gesamten Werks.",
+    "source_status": "Originalausgabe heruntergeladen und relevante Seiten gelesen; ausdrückliche Gleichheit der Halbtöne auf S. 96 visuell geprüft."
+  },
+  {
+    "id": "cpebach_1753",
+    "person": "Carl Philipp Emanuel Bach",
+    "role": "Komponist, Tastenmusiker und Pädagoge",
+    "dates": "1753 (Quelle); Textabgleich mit 1759",
+    "place": "Berlin (Publikation)",
+    "period": "Spätbarock und frühe Klassik",
+    "evidence": "A",
+    "finding": "Verlangt eine leichte Verengung der meisten Quinten, Kontrollen durch andere Intervalle und Akkorde sowie Brauchbarkeit aller 24 Tonarten. Genaue Größen und Verteilungen legt er nicht fest.",
+    "sources": [
+      "CPE1753"
+    ],
+    "locator": "Versuch, Teil I, Einleitung §14, Ausgabe 1753 S. 10; Ausgabe 1759 S. 8–9",
+    "practical": "R (unsere Empfehlung): Mild zirkulierende Temperierungen vergleichen; seine qualitative Anweisung als Prüfmaßstab statt eindeutiger Centtabelle nutzen.",
+    "limit": "Weder mathematische Gleichstufigkeit noch ein bestimmtes ungleiches Rezept lässt sich aus dem Wortlaut zwingend ableiten.",
+    "source_status": "Transkription von 1753 mit unabhängig korrekturgelesener Transkription samt Scanbezug der Ausgabe 1759 abgeglichen."
+  },
+  {
+    "id": "leopold_mozart_1756",
+    "person": "Leopold Mozart",
+    "role": "Komponist, Violinist und Pädagoge",
+    "dates": "1756 (Violinschule)",
+    "place": "Augsburg (Publikation); Salzburg (Wirkungskontext)",
+    "period": "Frühe Klassik",
+    "evidence": "A",
+    "finding": "Unterscheidet enharmonische Tonhöhen der Violine von den Beschränkungen einzelner Klaviertasten. Das betrifft anpassbare Intonation und ist keine allgemeine numerische Tastaturvorschrift.",
+    "sources": [
+      "HAY1991"
+    ],
+    "locator": "Haynes, revidierte Autorenfassung 2006; darin Primärzitate aus Violinschule 1756, S. 66–68",
+    "practical": "R (unsere Empfehlung): Violin- und Ensembleintonation von festen Tastaturen trennen; enharmonische Schreibweisen im harmonischen Zusammenhang untersuchen.",
+    "limit": "Kein Beleg für Wolfgangs Klavierstimmung oder eine starre, für jedes Ensemble gültige Oktavteilung.",
+    "source_status": "Primärzitate in Haynes' zugänglicher Autorenfassung gelesen; vollständige Originalausgabe der Violinschule hier nicht selbst kollationiert."
+  },
+  {
+    "id": "wa_mozart_forschungsfrage",
+    "person": "Wolfgang Amadé Mozart",
+    "role": "Komponist, Tastenmusiker und Lehrer",
+    "dates": "spätes 18. Jahrhundert; Forschungsbeitrag 1977",
+    "place": "Wien (Unterrichts- und Werkzusammenhang; kein hier geprüfter Stimmungsbeleg)",
+    "period": "Klassik",
+    "evidence": "offen",
+    "finding": "Chesnuts Untersuchung zur Intonationslehre ist eine einschlägige Forschungsressource. Da hier nur Metadaten geprüft wurden, wird daraus keine konkrete persönliche Stimmung Mozarts abgeleitet.",
+    "sources": [
+      "CHE1977"
+    ],
+    "locator": "Mozart’s Teaching of Intonation, JAMS 30/2 (1977), S. 254–271; ausschließlich bibliographischer Hinweis",
+    "practical": "R (unsere Empfehlung): Attwoods Studien und die kritische Edition zuerst prüfen; bis dahin personenbezogene numerische Zuordnungen offenlassen.",
+    "limit": "Metadaten belegen weder ein 55-EDO-Klavier noch eine bestimmte mitteltönige oder gleichstufige Präferenz.",
+    "source_status": "Nur Verlagsmetadaten von CHE1977 eingesehen; Volltext und relevante Attwood-Seiten nicht geprüft. Keine daraus abgeleitete Detailbehauptung."
+  },
+  {
+    "id": "tuerk_1789",
+    "person": "Daniel Gottlob Türk",
+    "role": "Komponist, Organist und Pädagoge",
+    "dates": "1789 (Quelle)",
+    "place": "Leipzig und Halle (Publikation)",
+    "period": "Klassik",
+    "evidence": "A",
+    "finding": "Das Inhaltsverzeichnis behandelt Gleichstufigkeit und Kirnbergers ungleiches Verfahren in aufeinanderfolgenden Abschnitten. Es dokumentiert beide als Gegenstände derselben Klavierlehre.",
+    "sources": [
+      "TUR1789"
+    ],
+    "locator": "Klavierschule, Inhaltsverzeichnis des Anhangs, §§11–12",
+    "practical": "R (unsere Empfehlung): Beide Verfahren als historische Vergleichsoptionen vorführen; für eine genaue Umsetzung die vollständigen Anweisungen hinzuziehen.",
+    "limit": "Nur Inhaltsverzeichnis geprüft; daraus folgt weder eine ausschließliche Präferenz noch die damalige Häufigkeit beider Verfahren.",
+    "source_status": "Digitale Inhaltsübersicht eingesehen; die vollständigen Stimmungsanweisungen wurden in dieser Recherche nicht textkritisch überprüft."
+  },
+  {
+    "id": "beethoven_offener_befund",
+    "person": "Ludwig van Beethoven",
+    "role": "Komponist und Pianist",
+    "dates": "spätes 18. und frühes 19. Jahrhundert (Werkzusammenhang)",
+    "place": "Wien (Werk- und Instrumentenkontext; kein konkreter Stimmungsbeleg)",
+    "period": "Klassik und frühes 19. Jahrhundert",
+    "evidence": "offen",
+    "finding": "In diesem ausgewählten Quellenbestand ist keine persönliche Stimmanweisung Beethovens belegt. Zeitnahe Lehrquellen behandeln mehrere Verfahren; das erlaubt keine individuelle Zuordnung.",
+    "sources": [
+      "TUR1789"
+    ],
+    "locator": "TUR1789: Anhang, Inhaltsverzeichnis §§11–12; ausschließlich allgemeiner Kontext, kein Beethoven-Zeugnis",
+    "practical": "R (unsere Empfehlung): Gleichstufigkeit als Vergleichsstandard einsetzen; ungleiche Versuche an Instrument, Werk und Quellenlage begründen.",
+    "limit": "Offener Recherchebefund, kein Nachweis des Fehlens aller möglichen Quellen und keine behauptete Vorliebe aus dem Wohnort.",
+    "source_status": "Keine personenbezogene Primärquelle geprüft; TUR1789 ausschließlich als allgemeiner pädagogischer Kontext verwendet. Inhaltsverzeichnis eingesehen."
+  },
+  {
+    "id": "montal_1834",
+    "person": "Claude Montal",
+    "role": "Klavierstimmer, Instrumentenbauer und Autor",
+    "dates": "1834 (Quelle)",
+    "place": "Paris (Publikation und praktischer Kontext)",
+    "period": "19. Jahrhundert",
+    "evidence": "A",
+    "finding": "Erklärt zwölf gleiche Halbtöne und gleichmäßig temperierte Quinten als praktisches Klavierstimmverfahren. Die Quelle belegt eine konkrete Gebrauchsanweisung zur Gleichstufigkeit im Paris von 1834.",
+    "sources": [
+      "MON1834"
+    ],
+    "locator": "Abrégé de l’art d’accorder soi-même son piano, S. 8–12, besonders S. 9 und 12",
+    "practical": "R (unsere Empfehlung): Gleichstufigkeit als dokumentiertes praktisches Verfahren demonstrieren; Stimmideal und tatsächliche instrumentale Umsetzung unterscheiden.",
+    "limit": "Kein europaweites Einführungsdatum und kein rückwirkender Beleg für die Präferenzen sämtlicher früherer Komponisten.",
+    "source_status": "Digitalisierter Primärtext beziehungsweise OCR der Ausgabe 1834 mit den einschlägigen Seiten gelesen."
+  }
+]

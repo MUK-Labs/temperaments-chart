@@ -1,0 +1,527 @@
+{
+  "explorerUrl": "https://muk-labs.github.io/temperaments/",
+  "explorerCommit": "779e7f2b64ebd8d841985bbdee42c4e206da9dcd",
+  "defaults": {
+    "instrument": "harpsichord",
+    "root": 60,
+    "a4": 440,
+    "mapping": "chromatic",
+    "volume": 55,
+    "dynamic": false,
+    "reference": false
+  },
+  "note": "Listening links open a named model in the companion explorer. A matching mathematical model is not proof of a person’s exclusive preference, every performance, or regional prevalence. The linked explorer starts silently and requires Enable sound.",
+  "statusLabels": {
+    "source-model": "Documented model or ideal",
+    "representative": "Listening reconstruction",
+    "comparison": "Comparison only"
+  },
+  "statusDescriptions": {
+    "source-model": "Corresponds to a mathematical method or ideal explicitly discussed in the supplied source; does not certify an instrument’s actual tuning.",
+    "representative": "A modern listening reconstruction of a reported or inferred family; the exact numerical recipe is not established.",
+    "comparison": "A deliberately labelled comparison, not an attribution to the historical person or work."
+  },
+  "tunings": [
+    {
+      "id": "meantone",
+      "label": "Quarter-comma meantone",
+      "family": "meantone",
+      "kind": "preset",
+      "preset": "meantone",
+      "sourceModelId": "mt_1_4",
+      "description": "Narrow fifths and pure major thirds in a twelve-note keyboard model.",
+      "caveat": "A specific ideal keyboard layout. Association with a person may be a modern listening reconstruction, rather than an exact documented recipe.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=meantone&instrument=harpsichord"
+    },
+    {
+      "id": "meantone-two-sevenths",
+      "label": "Two-sevenths-comma meantone",
+      "family": "meantone",
+      "kind": "custom",
+      "preset": null,
+      "sourceModelId": "mt_2_7",
+      "description": "The generating fifth is narrowed by 2/7 of the syntonic comma; the C–E third is about 383.24 cents.",
+      "caveat": "Uses the exact ideal C-based layout supplied with the Preferences research, rounded to twelve decimal places. The dated theoretical prescription does not establish every performance of Zarlino’s music.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=custom&instrument=harpsichord#scl=Two-sevenths-comma+meantone+%7C+ideal+model%2C+Zarlino+1558+context%0A12%0A70.672426864282%0A191.620693389795%0A312.568959915307%0A383.241386779590%0A504.189653305103%0A574.862080169385%0A695.810346694897%0A766.482773559180%0A887.431040084693%0A1008.379306610205%0A1079.051733474487%0A2%2F1%0A",
+      "scl": "Two-sevenths-comma meantone | ideal model, Zarlino 1558 context\n12\n70.672426864282\n191.620693389795\n312.568959915307\n383.241386779590\n504.189653305103\n574.862080169385\n695.810346694897\n766.482773559180\n887.431040084693\n1008.379306610205\n1079.051733474487\n2/1\n",
+      "sourceUrl": "https://github.com/AdrianArtacho/Tuning/blob/3e563043ce7c12c930dd148c339a4f490e9a5a4a/sandbox/Preferences/daten/modelle.json"
+    },
+    {
+      "id": "meantone-third",
+      "label": "Third-comma meantone",
+      "family": "meantone",
+      "kind": "preset",
+      "preset": "meantone-third",
+      "sourceModelId": null,
+      "description": "A meantone model with pure minor thirds; one of the alternatives discussed by Salinas.",
+      "caveat": "The label “Salinas temperament” should not hide his discussion of several usable meantone variants.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=meantone-third&instrument=harpsichord"
+    },
+    {
+      "id": "werckmeister-iii",
+      "label": "Werckmeister III",
+      "family": "unequal",
+      "kind": "preset",
+      "preset": "werckmeister-iii",
+      "sourceModelId": "werckmeister_iii",
+      "description": "A circulating unequal temperament with several sizes of major third.",
+      "caveat": "A defined modern standard reconstruction. It is neither a unique Bach tuning nor evidence for the former, retracted attribution to Buxtehude’s Lübeck organ.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=werckmeister-iii&instrument=harpsichord"
+    },
+    {
+      "id": "kirnberger-iii",
+      "label": "Kirnberger III",
+      "family": "unequal",
+      "kind": "preset",
+      "preset": "kirnberger-iii",
+      "sourceModelId": null,
+      "description": "A circulating unequal temperament retaining a pure C–E third.",
+      "caveat": "A named comparison model. The examined Türk table of contents mentions Kirnberger’s method without establishing that this exact variant was intended.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=kirnberger-iii&instrument=harpsichord"
+    },
+    {
+      "id": "vallotti",
+      "label": "Vallotti",
+      "family": "unequal",
+      "kind": "preset",
+      "preset": "vallotti",
+      "sourceModelId": null,
+      "description": "A mild circulating unequal model with contrasting key colours.",
+      "caveat": "Used here as a listening comparison where the research recommends mild circulating tunings; this does not attribute Vallotti’s recipe to Bach or C. P. E. Bach.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=vallotti&instrument=harpsichord"
+    },
+    {
+      "id": "12edo",
+      "label": "12 equal divisions",
+      "family": "equal",
+      "kind": "preset",
+      "preset": "12edo",
+      "sourceModelId": "edo12",
+      "description": "Twelve equal 100-cent steps per octave; major thirds are 400 cents.",
+      "caveat": "An ideal mathematical model. A theoretical recommendation or historical report does not establish exact acoustic realization or general regional adoption.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=12edo&instrument=harpsichord"
+    },
+    {
+      "id": "31edo",
+      "label": "31 equal divisions",
+      "family": "extended",
+      "kind": "preset",
+      "preset": "31edo",
+      "sourceModelId": null,
+      "description": "Thirty-one equal steps per octave, approximately 38.71 cents each.",
+      "caveat": "A modern comparison for Vicentino’s extended pitch resources, not an exact reconstruction of the Archicembalo or a claim that 36 physical keys equal 31 pitches.",
+      "url": "https://muk-labs.github.io/temperaments/?scale=31edo&instrument=harpsichord"
+    }
+  ],
+  "people": {
+    "aron_1523": [
+      {
+        "tuningId": "meantone",
+        "status": "representative",
+        "label": "Quarter-comma meantone",
+        "note": "A quarter-comma comparison reconstruction of Aron’s meantone orientation; his instruction does not uniquely determine this modern cents table."
+      }
+    ],
+    "vicentino_1555": [
+      {
+        "tuningId": "31edo",
+        "status": "comparison",
+        "label": "31 equal divisions",
+        "note": "Modern equal-division comparison only. Vicentino’s differentiated pitches and 36 physical keys do not amount to an uncontested exact 31-EDO specification."
+      }
+    ],
+    "zarlino_1558": [
+      {
+        "tuningId": "meantone-two-sevenths",
+        "status": "source-model",
+        "label": "Two-sevenths-comma meantone",
+        "note": "The ideal 2/7-comma model corresponds to the explicit fifth-narrowing prescription in the 1558 edition."
+      },
+      {
+        "tuningId": "meantone",
+        "status": "comparison",
+        "label": "Quarter-comma meantone",
+        "note": "Compare the same example with quarter-comma meantone; this is a comparison, not Zarlino’s 1558 prescription."
+      }
+    ],
+    "salinas_1577": [
+      {
+        "tuningId": "meantone-third",
+        "status": "source-model",
+        "label": "Third-comma meantone",
+        "note": "One of the three mathematical meantone alternatives discussed in the 1577 source."
+      },
+      {
+        "tuningId": "meantone-two-sevenths",
+        "status": "source-model",
+        "label": "Two-sevenths-comma meantone",
+        "note": "One of the three alternatives; the same twelve-note model is used for comparison."
+      },
+      {
+        "tuningId": "meantone",
+        "status": "source-model",
+        "label": "Quarter-comma meantone",
+        "note": "Salinas discusses this option as easier to understand and favourable for instrument making, while treating the others as usable too."
+      }
+    ],
+    "galilei_1581": [
+      {
+        "tuningId": "12edo",
+        "status": "comparison",
+        "label": "12 equal divisions",
+        "note": "Compare exact equal division with the historical 18:17 fret-placement approximation. The approximation is not mathematically identical to 12-EDO."
+      }
+    ],
+    "stevin_um1600": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Demonstrates the equal division formulated mathematically in his unpublished treatise; no regional practice or exact manuscript date follows."
+      }
+    ],
+    "byrd_repertoire": [
+      {
+        "tuningId": "meantone",
+        "status": "representative",
+        "label": "Quarter-comma meantone",
+        "note": "A starting-point reconstruction suggested by modern repertoire research; no personal numerical instruction is established."
+      }
+    ],
+    "sweelinck_repertoire": [
+      {
+        "tuningId": "meantone",
+        "status": "representative",
+        "label": "Quarter-comma meantone",
+        "note": "A twelve-note meantone comparison for the reported repertoire context; hypothetical split keys are not reproduced or established by this link."
+      }
+    ],
+    "monteverdi_repertoire": [
+      {
+        "tuningId": "meantone",
+        "status": "representative",
+        "label": "Quarter-comma meantone",
+        "note": "A keyboard-accompaniment comparison only; adjustable vocal intonation is not reduced to a fixed keyboard preset, and the source review was limited to an abstract."
+      }
+    ],
+    "bull_hexachord": [
+      {
+        "tuningId": "werckmeister-iii",
+        "status": "comparison",
+        "label": "Werckmeister III",
+        "note": "A later named circulating model used only to explore enharmonic interchange; no attribution of this recipe to Bull is intended."
+      },
+      {
+        "tuningId": "12edo",
+        "status": "comparison",
+        "label": "12 equal divisions",
+        "note": "An equal-division comparison for competing readings of the Hexachord Fantasia, not a uniquely required tuning."
+      }
+    ],
+    "frescobaldi_spaet": [
+      {
+        "tuningId": "12edo",
+        "status": "representative",
+        "label": "12 equal divisions",
+        "note": "Illustrates the equal-temperament ideal in Doni’s reported account of Frescobaldi’s late practice; it is not a prescription for his entire output."
+      },
+      {
+        "tuningId": "meantone",
+        "status": "comparison",
+        "label": "Quarter-comma meantone",
+        "note": "A deliberately contrasting model for an example whose composition date and chromatic writing must be considered."
+      }
+    ],
+    "valentini_um1643": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Illustrates the equal-division goal described in the manuscripts as reported by Barbieri; the original manuscripts and acoustic realization were not checked here."
+      }
+    ],
+    "louis_couperin_repertoire": [],
+    "buxtehude_luebeck": [],
+    "werckmeister_1707": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Illustrates equal narrowing of all fifths as a possibility in the late text; the text still allows purer diatonic thirds."
+      },
+      {
+        "tuningId": "werckmeister-iii",
+        "status": "comparison",
+        "label": "Werckmeister III",
+        "note": "Compare a distinct earlier unequal proposal. This is not the numerical recipe of the 1707 passage."
+      }
+    ],
+    "francois_couperin_zeugnis": [
+      {
+        "tuningId": "12edo",
+        "status": "representative",
+        "label": "12 equal divisions",
+        "note": "The ideal mentioned in Rousseau’s late report of a proposed and then abandoned method; no exact date or replacement recipe is given."
+      }
+    ],
+    "jsbach_wohltemperiert": [
+      {
+        "tuningId": "vallotti",
+        "status": "comparison",
+        "label": "Vallotti",
+        "note": "A named mild circulating model for listening comparison only, not a reconstructed “Bach temperament”."
+      },
+      {
+        "tuningId": "12edo",
+        "status": "comparison",
+        "label": "12 equal divisions",
+        "note": "A comparison with equal thirds. The evidence for thirds wider than pure does not require all thirds to have the same size."
+      }
+    ],
+    "neidhardt_1724": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Illustrates the equal division recommended for courtly context. His several unequal recipes are not replaced by an arbitrary named preset."
+      }
+    ],
+    "rameau_1726": [
+      {
+        "tuningId": "meantone",
+        "status": "comparison",
+        "label": "Quarter-comma meantone",
+        "note": "Regular quarter-comma meantone is the comparison baseline, not an exact implementation of Rameau’s modified unequal recipe."
+      }
+    ],
+    "rameau_1737": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Corresponds to the explicitly equal-semitone ideal in the 1737 source; it does not establish immediate Paris-wide adoption or the tuning of earlier works."
+      }
+    ],
+    "cpebach_1753": [
+      {
+        "tuningId": "vallotti",
+        "status": "comparison",
+        "label": "Vallotti",
+        "note": "A mild circulating model for comparison with the qualitative instruction. The source specifies neither this recipe nor a unique cents table."
+      },
+      {
+        "tuningId": "12edo",
+        "status": "comparison",
+        "label": "12 equal divisions",
+        "note": "Compare the equal-division model; the source’s wording does not require this unique mathematical solution."
+      }
+    ],
+    "leopold_mozart_1756": [],
+    "wa_mozart_forschungsfrage": [],
+    "tuerk_1789": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "One of the methods named in the examined contents of Türk’s appendix; the detailed instructions were not critically checked."
+      },
+      {
+        "tuningId": "kirnberger-iii",
+        "status": "comparison",
+        "label": "Kirnberger III",
+        "note": "An illustrative Kirnberger variant. The examined contents establish a Kirnberger method, not this exact numerical variant."
+      }
+    ],
+    "beethoven_offener_befund": [],
+    "montal_1834": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "The ideal of twelve equal semitones in Montal’s practical 1834 piano-tuning instructions; not a universal introduction date."
+      }
+    ]
+  },
+  "events": {
+    "aron1523": [
+      {
+        "tuningId": "meantone",
+        "status": "representative",
+        "label": "Quarter-comma meantone",
+        "note": "A quarter-comma comparison reconstruction of Aron’s meantone orientation; his instruction does not uniquely determine this modern cents table."
+      }
+    ],
+    "vicentino1555": [
+      {
+        "tuningId": "31edo",
+        "status": "comparison",
+        "label": "31 equal divisions",
+        "note": "Modern equal-division comparison only. Vicentino’s differentiated pitches and 36 physical keys do not amount to an uncontested exact 31-EDO specification."
+      }
+    ],
+    "zarlino1558": [
+      {
+        "tuningId": "meantone-two-sevenths",
+        "status": "source-model",
+        "label": "Two-sevenths-comma meantone",
+        "note": "The ideal 2/7-comma model corresponds to the explicit fifth-narrowing prescription in the 1558 edition."
+      },
+      {
+        "tuningId": "meantone",
+        "status": "comparison",
+        "label": "Quarter-comma meantone",
+        "note": "Compare the same example with quarter-comma meantone; this is a comparison, not Zarlino’s 1558 prescription."
+      }
+    ],
+    "salinas1577": [
+      {
+        "tuningId": "meantone-third",
+        "status": "source-model",
+        "label": "Third-comma meantone",
+        "note": "One of the three mathematical meantone alternatives discussed in the 1577 source."
+      },
+      {
+        "tuningId": "meantone-two-sevenths",
+        "status": "source-model",
+        "label": "Two-sevenths-comma meantone",
+        "note": "One of the three alternatives; the same twelve-note model is used for comparison."
+      },
+      {
+        "tuningId": "meantone",
+        "status": "source-model",
+        "label": "Quarter-comma meantone",
+        "note": "Salinas discusses this option as easier to understand and favourable for instrument making, while treating the others as usable too."
+      }
+    ],
+    "galilei1581": [
+      {
+        "tuningId": "12edo",
+        "status": "comparison",
+        "label": "12 equal divisions",
+        "note": "Compare exact equal division with the historical 18:17 fret-placement approximation. The approximation is not mathematically identical to 12-EDO."
+      }
+    ],
+    "sweelinck1600": [
+      {
+        "tuningId": "meantone",
+        "status": "representative",
+        "label": "Quarter-comma meantone",
+        "note": "A twelve-note meantone comparison for the reported repertoire context; hypothetical split keys are not reproduced or established by this link."
+      }
+    ],
+    "frescobaldi1640": [
+      {
+        "tuningId": "12edo",
+        "status": "representative",
+        "label": "12 equal divisions",
+        "note": "Illustrates the equal-temperament ideal in Doni’s reported account of Frescobaldi’s late practice; it is not a prescription for his entire output."
+      },
+      {
+        "tuningId": "meantone",
+        "status": "comparison",
+        "label": "Quarter-comma meantone",
+        "note": "A deliberately contrasting model for an example whose composition date and chromatic writing must be considered."
+      }
+    ],
+    "werckmeister1707": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Illustrates equal narrowing of all fifths as a possibility in the late text; the text still allows purer diatonic thirds."
+      },
+      {
+        "tuningId": "werckmeister-iii",
+        "status": "comparison",
+        "label": "Werckmeister III",
+        "note": "Compare a distinct earlier unequal proposal. This is not the numerical recipe of the 1707 passage."
+      }
+    ],
+    "bach1722": [
+      {
+        "tuningId": "vallotti",
+        "status": "comparison",
+        "label": "Vallotti",
+        "note": "A named mild circulating model for listening comparison only, not a reconstructed “Bach temperament”."
+      },
+      {
+        "tuningId": "12edo",
+        "status": "comparison",
+        "label": "12 equal divisions",
+        "note": "A comparison with equal thirds. The evidence for thirds wider than pure does not require all thirds to have the same size."
+      }
+    ],
+    "neidhardt1724": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Illustrates the equal division recommended for courtly context. His several unequal recipes are not replaced by an arbitrary named preset."
+      }
+    ],
+    "rameau1726": [
+      {
+        "tuningId": "meantone",
+        "status": "comparison",
+        "label": "Quarter-comma meantone",
+        "note": "Regular quarter-comma meantone is the comparison baseline, not an exact implementation of Rameau’s modified unequal recipe."
+      }
+    ],
+    "rameau1737": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Corresponds to the explicitly equal-semitone ideal in the 1737 source; it does not establish immediate Paris-wide adoption or the tuning of earlier works."
+      }
+    ],
+    "cpe1753": [
+      {
+        "tuningId": "vallotti",
+        "status": "comparison",
+        "label": "Vallotti",
+        "note": "A mild circulating model for comparison with the qualitative instruction. The source specifies neither this recipe nor a unique cents table."
+      },
+      {
+        "tuningId": "12edo",
+        "status": "comparison",
+        "label": "12 equal divisions",
+        "note": "Compare the equal-division model; the source’s wording does not require this unique mathematical solution."
+      }
+    ],
+    "montal1834": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "The ideal of twelve equal semitones in Montal’s practical 1834 piano-tuning instructions; not a universal introduction date."
+      }
+    ],
+    "schlick1511": [],
+    "werckmeister1691": [
+      {
+        "tuningId": "werckmeister-iii",
+        "status": "source-model",
+        "label": "Werckmeister III",
+        "note": "One defined modern standard reconstruction among the unequal systems associated with the 1691 source; this is not his only proposal."
+      }
+    ],
+    "luebeck1782": [
+      {
+        "tuningId": "12edo",
+        "status": "source-model",
+        "label": "12 equal divisions",
+        "note": "Illustrates the equal-temperament goal in the reported 1782 organ contract, long after Buxtehude’s tenure."
+      }
+    ]
+  },
+  "mappingNotes": {
+    "schlick1511": "The research verified bibliographic details, not a numerical recipe; no tuning is assigned.",
+    "louis_couperin_repertoire": "The research recommends a documented French unequal reconstruction. No such exact recipe is supplied in the audited explorer presets, so no substitute is assigned.",
+    "buxtehude_luebeck": "The former Werckmeister III attribution was retracted. This atlas assigns no precise tuning to Buxtehude’s organ.",
+    "leopold_mozart_1756": "Adjustable violin and ensemble intonation does not specify one fixed keyboard temperament.",
+    "wa_mozart_forschungsfrage": "The supplied research leaves Mozart’s personal numerical tuning open; no preset is assigned from bibliographic metadata or location.",
+    "beethoven_offener_befund": "The supplied source selection establishes no personal tuning instruction; no preference is inferred from Vienna or a general teaching source."
+  },
+  "sourceCommit": "3e563043ce7c12c930dd148c339a4f490e9a5a4a"
+}

@@ -1,0 +1,835 @@
+{
+  "title": "Ideale Rechenmodelle; keine persönlichen Komponistenstimmungen",
+  "reference": "C = 0 Cent; Oktave = 1200 Cent; idealisierte Tonhöhen, ohne Inharmonizität oder Stimmfehler",
+  "formulae": {
+    "ratio_to_cents": "c(r) = 1200 log2(r)",
+    "syntonic_comma": "S = 1200 log2(81/80)",
+    "pythagorean_comma": "P = 1200 log2((3/2)^12 / 2^7)",
+    "meantone_generator": "g = 1200 log2(3/2) - a S; a = 1/4 oder 2/7",
+    "meantone_pitch": "p_i = ((i - 3) g) mod 1200 für die gespeicherte Kette",
+    "interval": "I(x,y) = (p_y - p_x) mod 1200",
+    "edo12_pitch": "p_n = 100 n für die gespeicherte chromatische Tastenfolge",
+    "werckmeister_iii": "C–G, G–D, D–A und H–Fis: g = 1200 log2(3/2) - P/4; übrige Kreisquinten rein"
+  },
+  "constants_cents": {
+    "syntonic_comma": 21.50628959671478,
+    "pythagorean_comma": 23.460010384649014,
+    "pure_fifth": 701.9550008653874,
+    "pure_major_third": 386.3137138648348
+  },
+  "meantone_chain": [
+    "Es",
+    "B",
+    "F",
+    "C",
+    "G",
+    "D",
+    "A",
+    "E",
+    "H",
+    "Fis",
+    "Cis",
+    "Gis"
+  ],
+  "circle_order": [
+    "C",
+    "G",
+    "D",
+    "A",
+    "E",
+    "H",
+    "Fis",
+    "Cis",
+    "Gis",
+    "Es",
+    "B",
+    "F"
+  ],
+  "chromatic_keyboard": [
+    "C",
+    "Cis",
+    "D",
+    "Es",
+    "E",
+    "F",
+    "Fis",
+    "G",
+    "Gis",
+    "A",
+    "B",
+    "H"
+  ],
+  "enharmonic_note": "H–Es, Fis–B, Cis–F und Gis–C sind nach Schreibweise verminderte Quarten. Gis–Es ist eine verminderte Sexte, die an der Wolfstelle die Quinte ersetzt. Keine getrennten Tasten für Dis/Es usw.",
+  "attribution_note": "Die Rechnungen illustrieren Strukturen, keine Zuordnung eines Presets zu einem Komponisten. Werckmeister III ist die hier ausdrücklich definierte moderne Standardrekonstruktion.",
+  "source_context": [
+    "ZAR1558",
+    "SAL1577",
+    "WER1691"
+  ],
+  "models": [
+    {
+      "id": "mt_2_7",
+      "name": "2/7-Komma-Mitteltönigkeit",
+      "color": "#7963A8",
+      "pitch_cents": {
+        "Es": 312.56895991530746,
+        "B": 1008.379306610205,
+        "F": 504.1896533051025,
+        "C": 0.0,
+        "G": 695.8103466948975,
+        "D": 191.62069338979495,
+        "A": 887.4310400846925,
+        "E": 383.2413867795899,
+        "H": 1079.0517334744873,
+        "Fis": 574.8620801693851,
+        "Cis": 70.67242686428199,
+        "Gis": 766.4827735591798
+      },
+      "four_step_intervals": [
+        {
+          "root": "C",
+          "target": "E",
+          "label": "C–E",
+          "cents": 383.2413867795899,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "H",
+          "label": "G–H",
+          "cents": 383.2413867795898,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "Fis",
+          "label": "D–Fis",
+          "cents": 383.24138677959013,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "Cis",
+          "label": "A–Cis",
+          "cents": 383.24138677958945,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "Gis",
+          "label": "E–Gis",
+          "cents": 383.2413867795899,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Es",
+          "label": "H–Es*",
+          "cents": 433.5172264408202,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Fis",
+          "target": "B",
+          "label": "Fis–B*",
+          "cents": 433.51722644081997,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Cis",
+          "target": "F",
+          "label": "Cis–F*",
+          "cents": 433.51722644082054,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Gis",
+          "target": "C",
+          "label": "Gis–C*",
+          "cents": 433.5172264408202,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "G",
+          "label": "Es–G",
+          "cents": 383.24138677959,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "D",
+          "label": "B–D",
+          "cents": 383.2413867795899,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "A",
+          "label": "F–A",
+          "cents": 383.24138677959,
+          "substituted_enharmonic": false
+        }
+      ],
+      "seven_step_intervals": [
+        {
+          "root": "C",
+          "target": "G",
+          "label": "C–G",
+          "cents": 695.8103466948975,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "D",
+          "label": "G–D",
+          "cents": 695.8103466948975,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "A",
+          "label": "D–A",
+          "cents": 695.8103466948976,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "E",
+          "label": "A–E",
+          "cents": 695.8103466948974,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "H",
+          "label": "E–H",
+          "cents": 695.8103466948974,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Fis",
+          "label": "H–Fis",
+          "cents": 695.8103466948978,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Fis",
+          "target": "Cis",
+          "label": "Fis–Cis",
+          "cents": 695.8103466948969,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Cis",
+          "target": "Gis",
+          "label": "Cis–Gis",
+          "cents": 695.8103466948978,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Gis",
+          "target": "Es",
+          "label": "Gis–Es*",
+          "cents": 746.0861863561277,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "B",
+          "label": "Es–B",
+          "cents": 695.8103466948976,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "F",
+          "label": "B–F",
+          "cents": 695.8103466948975,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "C",
+          "label": "F–C",
+          "cents": 695.8103466948975,
+          "substituted_enharmonic": false
+        }
+      ]
+    },
+    {
+      "id": "mt_1_4",
+      "name": "1/4-Komma-Mitteltönigkeit",
+      "color": "#247D83",
+      "pitch_cents": {
+        "Es": 310.2647146013737,
+        "B": 1006.8431430675826,
+        "F": 503.4215715337913,
+        "C": 0.0,
+        "G": 696.5784284662087,
+        "D": 193.15685693241744,
+        "A": 889.7352853986263,
+        "E": 386.3137138648349,
+        "H": 1082.8921423310435,
+        "Fis": 579.4705707972525,
+        "Cis": 76.04899926346116,
+        "Gis": 772.6274277296698
+      },
+      "four_step_intervals": [
+        {
+          "root": "C",
+          "target": "E",
+          "label": "C–E",
+          "cents": 386.3137138648349,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "H",
+          "label": "G–H",
+          "cents": 386.31371386483477,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "Fis",
+          "label": "D–Fis",
+          "cents": 386.3137138648351,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "Cis",
+          "label": "A–Cis",
+          "cents": 386.3137138648349,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "Gis",
+          "label": "E–Gis",
+          "cents": 386.3137138648349,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Es",
+          "label": "H–Es*",
+          "cents": 427.37257227033024,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Fis",
+          "target": "B",
+          "label": "Fis–B*",
+          "cents": 427.37257227033,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Cis",
+          "target": "F",
+          "label": "Cis–F*",
+          "cents": 427.3725722703301,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Gis",
+          "target": "C",
+          "label": "Gis–C*",
+          "cents": 427.37257227033024,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "G",
+          "label": "Es–G",
+          "cents": 386.313713864835,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "D",
+          "label": "B–D",
+          "cents": 386.3137138648349,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "A",
+          "label": "F–A",
+          "cents": 386.313713864835,
+          "substituted_enharmonic": false
+        }
+      ],
+      "seven_step_intervals": [
+        {
+          "root": "C",
+          "target": "G",
+          "label": "C–G",
+          "cents": 696.5784284662087,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "D",
+          "label": "G–D",
+          "cents": 696.5784284662087,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "A",
+          "label": "D–A",
+          "cents": 696.5784284662088,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "E",
+          "label": "A–E",
+          "cents": 696.5784284662086,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "H",
+          "label": "E–H",
+          "cents": 696.5784284662086,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Fis",
+          "label": "H–Fis",
+          "cents": 696.5784284662091,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Fis",
+          "target": "Cis",
+          "label": "Fis–Cis",
+          "cents": 696.5784284662086,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Cis",
+          "target": "Gis",
+          "label": "Cis–Gis",
+          "cents": 696.5784284662086,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Gis",
+          "target": "Es",
+          "label": "Gis–Es*",
+          "cents": 737.637286871704,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "B",
+          "label": "Es–B",
+          "cents": 696.5784284662088,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "F",
+          "label": "B–F",
+          "cents": 696.5784284662087,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "C",
+          "label": "F–C",
+          "cents": 696.5784284662087,
+          "substituted_enharmonic": false
+        }
+      ]
+    },
+    {
+      "id": "werckmeister_iii",
+      "name": "Werckmeister III (ideales Modell)",
+      "color": "#AD633F",
+      "pitch_cents": {
+        "C": 0.0,
+        "G": 696.0899982692251,
+        "D": 192.17999653845027,
+        "A": 888.2699948076754,
+        "E": 390.22499567306295,
+        "H": 1092.1799965384503,
+        "Fis": 588.2699948076754,
+        "Cis": 90.22499567306295,
+        "Gis": 792.1799965384504,
+        "Es": 294.1349974038378,
+        "B": 996.0899982692252,
+        "F": 498.0449991346127
+      },
+      "four_step_intervals": [
+        {
+          "root": "C",
+          "target": "E",
+          "label": "C–E",
+          "cents": 390.22499567306295,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "H",
+          "label": "G–H",
+          "cents": 396.08999826922513,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "Fis",
+          "label": "D–Fis",
+          "cents": 396.08999826922513,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "Cis",
+          "label": "A–Cis",
+          "cents": 401.95500086538755,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "Gis",
+          "label": "E–Gis",
+          "cents": 401.95500086538743,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Es",
+          "label": "H–Es*",
+          "cents": 401.95500086538755,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Fis",
+          "target": "B",
+          "label": "Fis–B*",
+          "cents": 407.82000346154985,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Cis",
+          "target": "F",
+          "label": "Cis–F*",
+          "cents": 407.82000346154973,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Gis",
+          "target": "C",
+          "label": "Gis–C*",
+          "cents": 407.8200034615496,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "G",
+          "label": "Es–G",
+          "cents": 401.9550008653873,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "D",
+          "label": "B–D",
+          "cents": 396.089998269225,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "A",
+          "label": "F–A",
+          "cents": 390.2249956730627,
+          "substituted_enharmonic": false
+        }
+      ],
+      "seven_step_intervals": [
+        {
+          "root": "C",
+          "target": "G",
+          "label": "C–G",
+          "cents": 696.0899982692251,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "D",
+          "label": "G–D",
+          "cents": 696.0899982692251,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "A",
+          "label": "D–A",
+          "cents": 696.0899982692251,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "E",
+          "label": "A–E",
+          "cents": 701.9550008653875,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "H",
+          "label": "E–H",
+          "cents": 701.9550008653873,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Fis",
+          "label": "H–Fis",
+          "cents": 696.0899982692251,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Fis",
+          "target": "Cis",
+          "label": "Fis–Cis",
+          "cents": 701.9550008653875,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Cis",
+          "target": "Gis",
+          "label": "Cis–Gis",
+          "cents": 701.9550008653874,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Gis",
+          "target": "Es",
+          "label": "Gis–Es*",
+          "cents": 701.9550008653874,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "B",
+          "label": "Es–B",
+          "cents": 701.9550008653874,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "F",
+          "label": "B–F",
+          "cents": 701.9550008653874,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "C",
+          "label": "F–C",
+          "cents": 701.9550008653873,
+          "substituted_enharmonic": false
+        }
+      ]
+    },
+    {
+      "id": "edo12",
+      "name": "12-EDO (gleichstufig)",
+      "color": "#4778A4",
+      "pitch_cents": {
+        "C": 0.0,
+        "Cis": 100.0,
+        "D": 200.0,
+        "Es": 300.0,
+        "E": 400.0,
+        "F": 500.0,
+        "Fis": 600.0,
+        "G": 700.0,
+        "Gis": 800.0,
+        "A": 900.0,
+        "B": 1000.0,
+        "H": 1100.0
+      },
+      "four_step_intervals": [
+        {
+          "root": "C",
+          "target": "E",
+          "label": "C–E",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "H",
+          "label": "G–H",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "Fis",
+          "label": "D–Fis",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "Cis",
+          "label": "A–Cis",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "Gis",
+          "label": "E–Gis",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Es",
+          "label": "H–Es*",
+          "cents": 400.0,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Fis",
+          "target": "B",
+          "label": "Fis–B*",
+          "cents": 400.0,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Cis",
+          "target": "F",
+          "label": "Cis–F*",
+          "cents": 400.0,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Gis",
+          "target": "C",
+          "label": "Gis–C*",
+          "cents": 400.0,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "G",
+          "label": "Es–G",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "D",
+          "label": "B–D",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "A",
+          "label": "F–A",
+          "cents": 400.0,
+          "substituted_enharmonic": false
+        }
+      ],
+      "seven_step_intervals": [
+        {
+          "root": "C",
+          "target": "G",
+          "label": "C–G",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "G",
+          "target": "D",
+          "label": "G–D",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "D",
+          "target": "A",
+          "label": "D–A",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "A",
+          "target": "E",
+          "label": "A–E",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "E",
+          "target": "H",
+          "label": "E–H",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "H",
+          "target": "Fis",
+          "label": "H–Fis",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Fis",
+          "target": "Cis",
+          "label": "Fis–Cis",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Cis",
+          "target": "Gis",
+          "label": "Cis–Gis",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "Gis",
+          "target": "Es",
+          "label": "Gis–Es*",
+          "cents": 700.0,
+          "substituted_enharmonic": true
+        },
+        {
+          "root": "Es",
+          "target": "B",
+          "label": "Es–B",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "B",
+          "target": "F",
+          "label": "B–F",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        },
+        {
+          "root": "F",
+          "target": "C",
+          "label": "F–C",
+          "cents": 700.0,
+          "substituted_enharmonic": false
+        }
+      ]
+    }
+  ]
+}

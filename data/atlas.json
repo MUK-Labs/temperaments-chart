@@ -1,0 +1,1747 @@
+{
+  "meta": {
+    "title": "Temperaments · places & time",
+    "sourceCommit": "3e563043ce7c12c930dd148c339a4f490e9a5a4a",
+    "sourceUrl": "https://github.com/AdrianArtacho/Tuning/tree/3e563043ce7c12c930dd148c339a4f490e9a5a4a/sandbox/Preferences",
+    "sourceRepository": "https://github.com/AdrianArtacho/Tuning",
+    "dossierUrl": "https://github.com/AdrianArtacho/Tuning/blob/3e563043ce7c12c930dd148c339a4f490e9a5a4a/sandbox/Preferences/artifacts/preferences.pdf",
+    "sourceDataPath": "sandbox/Preferences/daten",
+    "researchDate": "2026-10-21",
+    "adaptationDate": "2026-10-26",
+    "language": "en",
+    "yearMin": 1500,
+    "yearMax": 1850,
+    "mapNote": "Selected evidence places, not a map of regional adoption. Points identify publications, works or reported practice. Coordinates mark approximate present-day city centres; coastlines are for orientation only.",
+    "timelineNote": "Milestones date selected texts or events, not periods during which a temperament was universally used. A time window is only a viewing filter. Approximate dates are marked “c.”.",
+    "listeningNote": "Listening links distinguish a defined numerical model from an illustrative comparison. A useful reconstruction is not automatically a composer’s personal tuning.",
+    "sourceNote": "English adaptation of the supplied dossier. Source-access and verification statements describe that dossier’s checks on 21 October 2026; they are not claims of a new full-source review for this website.",
+    "evidenceLabels": {
+      "A": "Author’s own statement",
+      "B": "Reported testimony",
+      "C": "Context / repertoire",
+      "A+B": "Work and later testimony",
+      "open": "Open research finding"
+    },
+    "evidenceDescriptions": {
+      "A": "A dated instruction or position; not automatically a lifelong practice. Some primary instructions are accessible here only through later research.",
+      "B": "A report about another person or earlier practice; its date and transmission matter.",
+      "C": "An instrument, institution, repertoire or bibliographical context; personal preference requires further evidence.",
+      "A+B": "Different evidence kinds are kept distinct within the finding.",
+      "open": "No checked personal tuning instruction in this selected corpus; not a claim that no such source could exist."
+    },
+    "familyLabels": {
+      "meantone": "Meantone",
+      "unequal": "Unequal / circulating",
+      "equal": "Equal / near-equal",
+      "extended": "Extended pitch inventories",
+      "other": "Context / open"
+    },
+    "mapCredit": "Natural Earth · public domain",
+    "mapCreditUrl": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  "places": [
+    {
+      "id": "speyer",
+      "name": "Speyer",
+      "lat": 49.3173,
+      "lon": 8.4412,
+      "role": "Publication place (catalogue record)",
+      "note": "Schlick: an organ treatise. Bibliographical context; no detailed tuning prescription was directly verified.",
+      "sourceIds": [
+        "SCH1511"
+      ],
+      "evidence": "C",
+      "eventIds": [
+        "schlick1511"
+      ],
+      "personIds": []
+    },
+    {
+      "id": "venedig",
+      "name": "Venice",
+      "lat": 45.4408,
+      "lon": 12.3155,
+      "role": "Publication place",
+      "note": "Aron and Zarlino: different tuning instructions, published in 1523 and 1558.",
+      "sourceIds": [
+        "AAR1523",
+        "ZAR1558"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "aron1523",
+        "zarlino1558"
+      ],
+      "personIds": [
+        "aron_1523",
+        "zarlino_1558",
+        "monteverdi_repertoire"
+      ]
+    },
+    {
+      "id": "rom1555",
+      "name": "Rome",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "role": "Publication place",
+      "note": "Vicentino: the archicembalo and an expanded pitch inventory, 1555.",
+      "sourceIds": [
+        "VIC1555"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "vicentino1555"
+      ],
+      "personIds": [
+        "vicentino_1555"
+      ]
+    },
+    {
+      "id": "salamanca",
+      "name": "Salamanca",
+      "lat": 40.9701,
+      "lon": -5.6635,
+      "role": "Publication place",
+      "note": "Salinas compares three forms of meantone, 1577.",
+      "sourceIds": [
+        "SAL1577"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "salinas1577"
+      ],
+      "personIds": [
+        "salinas_1577"
+      ]
+    },
+    {
+      "id": "florenz",
+      "name": "Florence",
+      "lat": 43.7696,
+      "lon": 11.2558,
+      "role": "Publication place",
+      "note": "Galilei distinguishes fretted and keyboard instruments, 1581.",
+      "sourceIds": [
+        "GAL1581"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "galilei1581"
+      ],
+      "personIds": [
+        "galilei_1581"
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "role": "Place of activity; repertoire and instrument context",
+      "note": "Sweelinck around 1600: a contextual association, without a personal numerical prescription.",
+      "sourceIds": [
+        "ORT2007"
+      ],
+      "evidence": "C",
+      "eventIds": [
+        "sweelinck1600"
+      ],
+      "personIds": [
+        "sweelinck_repertoire"
+      ]
+    },
+    {
+      "id": "rom1640",
+      "name": "Rome",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "role": "Reported setting",
+      "note": "Doni reports Frescobaldi’s late approval of equal temperament, around 1640.",
+      "sourceIds": [
+        "BAR1983"
+      ],
+      "evidence": "B",
+      "eventIds": [
+        "frescobaldi1640"
+      ],
+      "personIds": [
+        "frescobaldi_spaet",
+        "valentini_um1643"
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "role": "Publication place",
+      "note": "Rameau’s different positions in 1726 and 1737; Montal’s practical piano-tuning instructions in 1834.",
+      "sourceIds": [
+        "RAM1726",
+        "RAM1737",
+        "MON1834"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "rameau1726",
+        "rameau1737",
+        "montal1834"
+      ],
+      "personIds": [
+        "louis_couperin_repertoire",
+        "francois_couperin_zeugnis",
+        "rameau_1726",
+        "rameau_1737",
+        "montal_1834"
+      ]
+    },
+    {
+      "id": "quedlinburg",
+      "name": "Quedlinburg",
+      "lat": 51.785,
+      "lon": 11.151,
+      "role": "Publication place",
+      "note": "Werckmeister’s late position, published posthumously in 1707. This is not the publication place of his 1691 book.",
+      "sourceIds": [
+        "WER1707"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "werckmeister1707"
+      ],
+      "personIds": [
+        "werckmeister_1707"
+      ]
+    },
+    {
+      "id": "koethen",
+      "name": "Köthen",
+      "lat": 51.7518,
+      "lon": 11.9775,
+      "role": "Place associated with the work",
+      "note": "Bach’s Well-Tempered Clavier, 1722: a work project, without a numerical tuning recipe.",
+      "sourceIds": [
+        "JSB1722"
+      ],
+      "evidence": "C",
+      "eventIds": [
+        "bach1722"
+      ],
+      "personIds": [
+        "jsbach_wohltemperiert"
+      ]
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "lat": 52.52,
+      "lon": 13.405,
+      "role": "Publication place",
+      "note": "C. P. E. Bach’s practical tuning rule, 1753.",
+      "sourceIds": [
+        "CPE1753"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "cpe1753"
+      ],
+      "personIds": [
+        "cpebach_1753"
+      ]
+    },
+    {
+      "id": "koenigsberg",
+      "name": "Königsberg",
+      "lat": 54.7104,
+      "lon": 20.4522,
+      "role": "Publication place; present-day Kaliningrad",
+      "note": "Neidhardt’s several proposed temperaments, 1724.",
+      "sourceIds": [
+        "NEI1724"
+      ],
+      "evidence": "A",
+      "eventIds": [
+        "neidhardt1724"
+      ],
+      "personIds": [
+        "neidhardt_1724"
+      ]
+    },
+    {
+      "id": "luebeck",
+      "name": "Lübeck",
+      "lat": 53.8655,
+      "lon": 10.6866,
+      "role": "Institutional evidence",
+      "note": "An organ contract specifies equal temperament in 1782, long after Buxtehude’s lifetime.",
+      "sourceIds": [
+        "SNY2009"
+      ],
+      "evidence": "B",
+      "eventIds": [
+        "luebeck1782"
+      ],
+      "personIds": [
+        "buxtehude_luebeck"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "schlick1511",
+      "year": 1511,
+      "dateLabel": "1511",
+      "approximate": false,
+      "title": "Schlick · Speyer",
+      "summary": "Organ treatise: bibliographical context; no particular tuning recipe checked.",
+      "evidence": "C",
+      "placeId": "speyer",
+      "personIds": [],
+      "families": [
+        "other"
+      ],
+      "sourceIds": [
+        "SCH1511"
+      ],
+      "verification": "The title-page and printing-privilege record was checked bibliographically; no detailed tuning chapter was directly verified."
+    },
+    {
+      "id": "aron1523",
+      "year": 1523,
+      "dateLabel": "1523",
+      "approximate": false,
+      "title": "Aron · Venice",
+      "summary": "A practical instruction with a pure C–E major third and narrowed fifths.",
+      "evidence": "A",
+      "placeId": "venedig",
+      "personIds": [
+        "aron_1523"
+      ],
+      "families": [
+        "meantone"
+      ],
+      "sourceIds": [
+        "AAR1523"
+      ]
+    },
+    {
+      "id": "vicentino1555",
+      "year": 1555,
+      "dateLabel": "1555",
+      "approximate": false,
+      "title": "Vicentino · Rome",
+      "summary": "The archicembalo and an expanded pitch inventory.",
+      "evidence": "A",
+      "placeId": "rom1555",
+      "personIds": [
+        "vicentino_1555"
+      ],
+      "families": [
+        "extended"
+      ],
+      "sourceIds": [
+        "VIC1555"
+      ]
+    },
+    {
+      "id": "zarlino1558",
+      "year": 1558,
+      "dateLabel": "1558",
+      "approximate": false,
+      "title": "Zarlino · Venice",
+      "summary": "Fifths narrowed by two sevenths of the syntonic comma.",
+      "evidence": "A",
+      "placeId": "venedig",
+      "personIds": [
+        "zarlino_1558"
+      ],
+      "families": [
+        "meantone"
+      ],
+      "sourceIds": [
+        "ZAR1558"
+      ]
+    },
+    {
+      "id": "salinas1577",
+      "year": 1577,
+      "dateLabel": "1577",
+      "approximate": false,
+      "title": "Salinas · Salamanca",
+      "summary": "A comparison of third-, two-sevenths- and quarter-comma meantone.",
+      "evidence": "A",
+      "placeId": "salamanca",
+      "personIds": [
+        "salinas_1577"
+      ],
+      "families": [
+        "meantone"
+      ],
+      "sourceIds": [
+        "SAL1577"
+      ]
+    },
+    {
+      "id": "galilei1581",
+      "year": 1581,
+      "dateLabel": "1581",
+      "approximate": false,
+      "title": "Galilei · Florence",
+      "summary": "Fret placement, the 18:17 approximation and habits of listening.",
+      "evidence": "A",
+      "placeId": "florenz",
+      "personIds": [
+        "galilei_1581"
+      ],
+      "families": [
+        "equal"
+      ],
+      "sourceIds": [
+        "GAL1581"
+      ]
+    },
+    {
+      "id": "sweelinck1600",
+      "year": 1600,
+      "dateLabel": "c. 1600",
+      "approximate": true,
+      "title": "Sweelinck · Amsterdam",
+      "summary": "A meantone repertoire context, without a personal tuning prescription.",
+      "evidence": "C",
+      "placeId": "amsterdam",
+      "personIds": [
+        "sweelinck_repertoire"
+      ],
+      "families": [
+        "meantone"
+      ],
+      "sourceIds": [
+        "ORT2007"
+      ]
+    },
+    {
+      "id": "frescobaldi1640",
+      "year": 1640,
+      "dateLabel": "c. 1640",
+      "approximate": true,
+      "title": "Frescobaldi · Rome",
+      "summary": "Doni reports a late approval of equal temperament.",
+      "evidence": "B",
+      "placeId": "rom1640",
+      "personIds": [
+        "frescobaldi_spaet"
+      ],
+      "families": [
+        "equal"
+      ],
+      "sourceIds": [
+        "BAR1983"
+      ]
+    },
+    {
+      "id": "werckmeister1691",
+      "year": 1691,
+      "dateLabel": "1691",
+      "approximate": false,
+      "title": "Werckmeister · Frankfurt / Leipzig",
+      "summary": "Several unequal temperaments; no single map location is assigned.",
+      "evidence": "A",
+      "placeId": null,
+      "personIds": [],
+      "families": [
+        "unequal"
+      ],
+      "sourceIds": [
+        "WER1691"
+      ]
+    },
+    {
+      "id": "werckmeister1707",
+      "year": 1707,
+      "dateLabel": "1707",
+      "approximate": false,
+      "title": "Werckmeister · Quedlinburg",
+      "summary": "Equal narrowing of fifths, while still allowing purer diatonic thirds.",
+      "evidence": "A",
+      "placeId": "quedlinburg",
+      "personIds": [
+        "werckmeister_1707"
+      ],
+      "families": [
+        "equal",
+        "unequal"
+      ],
+      "sourceIds": [
+        "WER1707"
+      ]
+    },
+    {
+      "id": "bach1722",
+      "year": 1722,
+      "dateLabel": "1722",
+      "approximate": false,
+      "title": "J. S. Bach · Köthen",
+      "summary": "The Well-Tempered Clavier: all keys, without a unique numerical recipe.",
+      "evidence": "C",
+      "placeId": "koethen",
+      "personIds": [
+        "jsbach_wohltemperiert"
+      ],
+      "families": [
+        "unequal",
+        "equal"
+      ],
+      "sourceIds": [
+        "JSB1722"
+      ]
+    },
+    {
+      "id": "neidhardt1724",
+      "year": 1724,
+      "dateLabel": "1724",
+      "approximate": false,
+      "title": "Neidhardt · Königsberg",
+      "summary": "Several prescriptions for different musical settings.",
+      "evidence": "A",
+      "placeId": "koenigsberg",
+      "personIds": [
+        "neidhardt_1724"
+      ],
+      "families": [
+        "unequal",
+        "equal"
+      ],
+      "sourceIds": [
+        "NEI1724"
+      ]
+    },
+    {
+      "id": "rameau1726",
+      "year": 1726,
+      "dateLabel": "1726",
+      "approximate": false,
+      "title": "Rameau · Paris",
+      "summary": "Unequal, modified meantone tuning and its expressive differences.",
+      "evidence": "A",
+      "placeId": "paris",
+      "personIds": [
+        "rameau_1726"
+      ],
+      "families": [
+        "meantone",
+        "unequal"
+      ],
+      "sourceIds": [
+        "RAM1726"
+      ]
+    },
+    {
+      "id": "rameau1737",
+      "year": 1737,
+      "dateLabel": "1737",
+      "approximate": false,
+      "title": "Rameau · Paris",
+      "summary": "A changed position: an explicit recommendation for equal semitones.",
+      "evidence": "A",
+      "placeId": "paris",
+      "personIds": [
+        "rameau_1737"
+      ],
+      "families": [
+        "equal"
+      ],
+      "sourceIds": [
+        "RAM1737"
+      ]
+    },
+    {
+      "id": "cpe1753",
+      "year": 1753,
+      "dateLabel": "1753",
+      "approximate": false,
+      "title": "C. P. E. Bach · Berlin",
+      "summary": "A practical rule for all 24 keys, without an exact cents table.",
+      "evidence": "A",
+      "placeId": "berlin",
+      "personIds": [
+        "cpebach_1753"
+      ],
+      "families": [
+        "unequal",
+        "equal"
+      ],
+      "sourceIds": [
+        "CPE1753"
+      ]
+    },
+    {
+      "id": "luebeck1782",
+      "year": 1782,
+      "dateLabel": "1782",
+      "approximate": false,
+      "title": "Organ contract · Lübeck",
+      "summary": "Equal temperament specified long after Buxtehude’s lifetime.",
+      "evidence": "B",
+      "placeId": "luebeck",
+      "personIds": [],
+      "families": [
+        "equal"
+      ],
+      "sourceIds": [
+        "SNY2009"
+      ]
+    },
+    {
+      "id": "montal1834",
+      "year": 1834,
+      "dateLabel": "1834",
+      "approximate": false,
+      "title": "Montal · Paris",
+      "summary": "A practical method for tuning a piano in equal temperament.",
+      "evidence": "A",
+      "placeId": "paris",
+      "personIds": [
+        "montal_1834"
+      ],
+      "families": [
+        "equal"
+      ],
+      "sourceIds": [
+        "MON1834"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "aron_1523",
+      "name": "Pietro Aron (Aaron)",
+      "role": "Music theorist and composer",
+      "dateLabel": "1523 (source)",
+      "place": "Venice (publication)",
+      "period": "Renaissance",
+      "evidence": "A",
+      "summary": "His instructions require a pure C–E major third and narrowed fifths. They establish a meantone orientation, without a completely unambiguous modern cents table.",
+      "limitation": "This establishes neither invention nor one numerical system used exclusively throughout his life.",
+      "practical": "Try quarter-comma meantone as a comparative reconstruction; document the tuning sequence and available pitches.",
+      "verification": "The primary text was checked in the critical digital TMI edition, with edition pagination distinguished.",
+      "locator": "Book II, chapter 41; 1523 edition, pp. 106–107",
+      "sourceIds": [
+        "AAR1523"
+      ],
+      "eventIds": [
+        "aron1523"
+      ],
+      "placeIds": [
+        "venedig"
+      ],
+      "families": [
+        "meantone"
+      ]
+    },
+    {
+      "id": "vicentino_1555",
+      "name": "Nicola Vicentino",
+      "role": "Composer, theorist and instrument inventor",
+      "dateLabel": "1555 (source)",
+      "place": "Rome (publication)",
+      "period": "Renaissance",
+      "evidence": "A",
+      "summary": "Describes an archicembalo with 36 physical keys per octave and differentiated pitches. Identifying his entire conception with one exact 31-EDO system is disputed.",
+      "limitation": "The number of keys, number of pitches and equal octave division are different questions. There is no single undisputed preset.",
+      "practical": "Demonstrate expanded pitch inventories from specific instructions; label 31-EDO explicitly as a modern comparison.",
+      "verification": "The digitization record and location were checked; detailed interpretation was compared with Kirnbauer’s accessible research article.",
+      "locator": "VIC1555: Book V, fols. 99r–100r and following instructions; KIR2026: discussion of Book V and recent interpretations",
+      "sourceIds": [
+        "VIC1555",
+        "KIR2026"
+      ],
+      "eventIds": [
+        "vicentino1555"
+      ],
+      "placeIds": [
+        "rom1555"
+      ],
+      "families": [
+        "extended"
+      ]
+    },
+    {
+      "id": "zarlino_1558",
+      "name": "Gioseffo Zarlino",
+      "role": "Composer and music theorist",
+      "dateLabel": "1558 (edition examined)",
+      "place": "Venice (publication)",
+      "period": "Renaissance",
+      "evidence": "A",
+      "summary": "Instructs the reader to narrow every fifth by two sevenths of the syntonic comma. This edition explicitly endorses two-sevenths-comma meantone.",
+      "limitation": "A dated theoretical instruction establishes neither the tuning of every performance of his music nor an unchanged lifelong position.",
+      "practical": "Compare two-sevenths- and quarter-comma meantone; always name the edition being discussed.",
+      "verification": "The quantified primary-text passage was checked directly in the TMI edition with page markers.",
+      "locator": "Part II, chapter 42, pp. 126–127; mathematical continuation in chapter 43, p. 128",
+      "sourceIds": [
+        "ZAR1558"
+      ],
+      "eventIds": [
+        "zarlino1558"
+      ],
+      "placeIds": [
+        "venedig"
+      ],
+      "families": [
+        "meantone"
+      ]
+    },
+    {
+      "id": "salinas_1577",
+      "name": "Francisco de Salinas",
+      "role": "Organist and music theorist",
+      "dateLabel": "1577 (source)",
+      "place": "Salamanca (publication)",
+      "period": "Renaissance",
+      "evidence": "A",
+      "summary": "Compares third-, two-sevenths- and quarter-comma meantone. He considers quarter-comma easier to understand and more convenient for instrument construction, while treating all three as usable procedures.",
+      "limitation": "One label, “Salinas tuning”, obscures the comparison. It does not establish a uniform Spanish practice.",
+      "practical": "Compare all three variants with the same example; distinguish purity, playability and instrument construction.",
+      "verification": "The TML transcription in the identified Fenyx mirror was read, including its source header and page markers; the original scan was not separately collated.",
+      "locator": "Book III, chapter 15, p. 143; chapter 22, pp. 154–155; chapter 26, pp. 163–164",
+      "sourceIds": [
+        "SAL1577"
+      ],
+      "eventIds": [
+        "salinas1577"
+      ],
+      "placeIds": [
+        "salamanca"
+      ],
+      "families": [
+        "meantone"
+      ]
+    },
+    {
+      "id": "galilei_1581",
+      "name": "Vincenzo Galilei",
+      "role": "Lutenist, composer and music theorist",
+      "dateLabel": "1581 (source)",
+      "place": "Florence (publication)",
+      "period": "Renaissance",
+      "evidence": "A",
+      "summary": "Distinguishes lute and keyboard tuning, discusses habits of listening, and describes approximately equal semitone division through the 18:17 rule for fret placement.",
+      "limitation": "18:17 is not mathematically exact twelvefold octave division. A lute rule does not automatically apply to every keyboard instrument in the same place.",
+      "practical": "Compare equal intervals with plucked and sustained sounds; demonstrate the historical 18:17 approximation separately.",
+      "verification": "The TMI primary-text passages on habit, sound production and fret placement were checked directly.",
+      "locator": "Dialogo, pp. 47–49; fret-placement rule and discrepancy especially p. 49",
+      "sourceIds": [
+        "GAL1581"
+      ],
+      "eventIds": [
+        "galilei1581"
+      ],
+      "placeIds": [
+        "florenz"
+      ],
+      "families": [
+        "equal"
+      ]
+    },
+    {
+      "id": "stevin_um1600",
+      "name": "Simon Stevin",
+      "role": "Mathematician and music theorist",
+      "dateLabel": "c. 1600 (undated manuscript); edition 1966",
+      "place": "Netherlands (exact place of composition uncertain)",
+      "period": "Renaissance and early Baroque",
+      "evidence": "A",
+      "summary": "Formulates equal octave division mathematically. Unpublished during his lifetime, the text establishes a theoretical conception before Bach, rather than measured regional performance practice.",
+      "limitation": "The dating is uncertain. Neither 1585 as the publication year of this music treatise nor a particular place of composition is established.",
+      "practical": "Demonstrate twelfth roots and equal semitone steps; separate the history of theory from practical adoption.",
+      "verification": "The English edition of the text and its introduction were read.",
+      "locator": "STE1600, p. 427 and editorial introduction",
+      "sourceIds": [
+        "STE1600"
+      ],
+      "eventIds": [],
+      "placeIds": [],
+      "families": [
+        "equal"
+      ]
+    },
+    {
+      "id": "byrd_repertoire",
+      "name": "William Byrd",
+      "role": "Composer",
+      "dateLabel": "Late 16th and early 17th centuries (repertoire)",
+      "place": "England (repertoire context; no single tuning location)",
+      "period": "Renaissance and early Baroque",
+      "evidence": "C",
+      "summary": "Meffen’s repertoire study supports quarter-comma meantone as a contextual hypothesis. It does not establish a personal numerical tuning instruction by Byrd.",
+      "limitation": "A modern inference from repertoire is not a first-person statement. Exceptions should not be ignored to preserve a preset.",
+      "practical": "Try quarter-comma meantone as a starting point; examine unusual accidentals and possible retuning for each work.",
+      "verification": "The relevant repertoire and concluding passages of Meffen’s original thesis PDF were read.",
+      "locator": "MEF1973, pp. 106–112",
+      "sourceIds": [
+        "MEF1973"
+      ],
+      "eventIds": [],
+      "placeIds": [],
+      "families": [
+        "meantone"
+      ]
+    },
+    {
+      "id": "sweelinck_repertoire",
+      "name": "Jan Pieterszoon Sweelinck",
+      "role": "Composer and organist",
+      "dateLabel": "Up to 1621 (repertoire and instrument context)",
+      "place": "Amsterdam, especially the Oude Kerk (instrument context)",
+      "period": "Renaissance and early Baroque",
+      "evidence": "C",
+      "summary": "The pitch inventory discussed by Ortgies supports a meantone context. It does not document the hypothetical split accidentals of the Oude Kerk.",
+      "limitation": "There is no personal numerical recipe. Dirksen’s original monograph was not examined directly in this dossier.",
+      "practical": "Try meantone; justify rare pitches and any assumed extra capabilities of the particular instrument individually.",
+      "verification": "Ortgies and the relevant footnote were read; the specific Dirksen claim is cited through Ortgies.",
+      "locator": "ORT2007, p. 160, note 265; referring to Dirksen 1997, p. 576",
+      "sourceIds": [
+        "ORT2007"
+      ],
+      "eventIds": [
+        "sweelinck1600"
+      ],
+      "placeIds": [
+        "amsterdam"
+      ],
+      "families": [
+        "meantone"
+      ]
+    },
+    {
+      "id": "monteverdi_repertoire",
+      "name": "Claudio Monteverdi",
+      "role": "Composer",
+      "dateLabel": "c. 1600–1643 (repertoire); research 2020",
+      "place": "Mantua and Venice (activity and repertoire context)",
+      "period": "Early Baroque",
+      "evidence": "C",
+      "summary": "Levenberg’s abstract argues for a meantone interpretative context and notes the absence of tuning instructions by Monteverdi. It yields no verified personal numerical recipe.",
+      "limitation": "No detailed claim is made from the inaccessible full text. A keyboard preset cannot simply be assigned to every singing voice.",
+      "practical": "Examine adaptable vocal intonation and fixed accompaniment separately; identify listening experiments as present-day reconstructions.",
+      "verification": "Publisher metadata and an institutional abstract were checked; the full text was unavailable.",
+      "locator": "LEV2020: publisher metadata and institutional abstract",
+      "sourceIds": [
+        "LEV2020"
+      ],
+      "eventIds": [],
+      "placeIds": [
+        "venedig"
+      ],
+      "families": [
+        "meantone",
+        "other"
+      ]
+    },
+    {
+      "id": "bull_hexachord",
+      "name": "John Bull",
+      "role": "Composer and keyboard player",
+      "dateLabel": "Before 1628 (work); exact composition date unspecified",
+      "place": "England and Antwerp (activity context; place of composition open)",
+      "period": "Early Baroque",
+      "evidence": "C",
+      "summary": "The hexachord fantasia BuK17 has prompted competing interpretations: Meffen considers nineteen pitches, while Schulenberg stresses enharmonic equivalence and circulating solutions. The work does not uniquely require equal temperament.",
+      "limitation": "Competing reconstructions establish neither a particular instrument nor Bull’s personal favourite tuning.",
+      "practical": "Compare an unequal circulating temperament with equal temperament, examining notation and enharmonic reinterpretation explicitly.",
+      "verification": "Meffen’s relevant thesis passages and Schulenberg’s full article, including note 12, were read.",
+      "locator": "MEF1973, pp. 106–112; SCH2005, section 4.5 and note 12",
+      "sourceIds": [
+        "MEF1973",
+        "SCH2005"
+      ],
+      "eventIds": [],
+      "placeIds": [],
+      "families": [
+        "unequal",
+        "equal",
+        "extended"
+      ]
+    },
+    {
+      "id": "frescobaldi_spaet",
+      "name": "Girolamo Frescobaldi",
+      "role": "Composer and keyboard player",
+      "dateLabel": "c. 1638–1643 (reported late context)",
+      "place": "Rome (reported practice)",
+      "period": "Early Baroque",
+      "evidence": "B",
+      "summary": "Barbieri presents Doni’s partisan account of Frescobaldi’s late approval of equal temperament. This is testimony by another person, not an autograph instruction.",
+      "limitation": "Do not project the late report back onto all of Frescobaldi’s earlier keyboard music.",
+      "practical": "Consider each work’s date; compare meantone and circulating solutions at specific chromatic passages.",
+      "verification": "Barbieri’s relevant printed pages were read in the extracted PDF text. The manuscripts quoted there were not examined directly.",
+      "locator": "BAR1983, pp. 144–146, especially p. 145",
+      "sourceIds": [
+        "BAR1983"
+      ],
+      "eventIds": [
+        "frescobaldi1640"
+      ],
+      "placeIds": [
+        "rom1640"
+      ],
+      "families": [
+        "equal"
+      ]
+    },
+    {
+      "id": "valentini_um1643",
+      "name": "Pier Francesco Valentini",
+      "role": "Composer and music theorist",
+      "dateLabel": "c. 1642–1645 (manuscripts)",
+      "place": "Rome (manuscript and experimental context)",
+      "period": "Early Baroque",
+      "evidence": "A",
+      "summary": "According to Barbieri’s manuscript study, Valentini claims an equal-tempered solution and describes procedures and a monochord.",
+      "limitation": "A identifies Valentini’s own instruction; this dossier accesses it indirectly through later research.",
+      "practical": "Compare equal temperament as a documented aim; investigate the historical realization separately.",
+      "verification": "Barbieri’s manuscript analysis was read; the quoted manuscripts were not examined directly.",
+      "locator": "BAR1983, discussion of Roman experiments and Valentini",
+      "sourceIds": [
+        "BAR1983"
+      ],
+      "eventIds": [],
+      "placeIds": [
+        "rom1640"
+      ],
+      "families": [
+        "equal"
+      ]
+    },
+    {
+      "id": "louis_couperin_repertoire",
+      "name": "Louis Couperin",
+      "role": "Composer and keyboard player",
+      "dateLabel": "Mid-17th century (repertoire)",
+      "place": "Paris (repertoire context)",
+      "period": "Baroque",
+      "evidence": "C",
+      "summary": "Lindley discusses the F-sharp-minor Pavane, among other works, in relation to French unequal tunings. This analytical association is not a surviving personal tuning instruction.",
+      "limitation": "Plausible interval effects do not prove an exclusive preference. Louis and François Couperin must be treated as distinct source cases.",
+      "practical": "Listen comparatively to a French unequal reconstruction, specifying its historical description and modern implementation.",
+      "verification": "Lindley’s institutional online article was read; only the abstract of the related journal article was accessible.",
+      "locator": "LINFR, section 6, The French Background",
+      "sourceIds": [
+        "LINFR"
+      ],
+      "eventIds": [],
+      "placeIds": [
+        "paris"
+      ],
+      "families": [
+        "unequal"
+      ]
+    },
+    {
+      "id": "buxtehude_luebeck",
+      "name": "Dieterich Buxtehude",
+      "role": "Composer and organist",
+      "dateLabel": "1668–1707 (Lübeck activity context)",
+      "place": "Lübeck, St Mary’s (organ context)",
+      "period": "Baroque",
+      "evidence": "C",
+      "summary": "Snyder retracts the earlier attribution of Werckmeister III to the Lübeck retuning of 1683. The exact temperament during Buxtehude’s tenure remains open.",
+      "limitation": "The explicitly equal-tempered contract of 1782 postdates Buxtehude’s lifetime.",
+      "practical": "Examine the specific organ, transmission of the works and their keys; treat multiple historical solutions as alternatives.",
+      "verification": "Snyder’s full text, explicit retraction and contract statement were checked.",
+      "locator": "SNY2009, sections 5.1–5.2 and notes 23–25",
+      "sourceIds": [
+        "SNY2009"
+      ],
+      "eventIds": [],
+      "placeIds": [
+        "luebeck"
+      ],
+      "families": [
+        "other"
+      ]
+    },
+    {
+      "id": "werckmeister_1707",
+      "name": "Andreas Werckmeister",
+      "role": "Music theorist and organist",
+      "dateLabel": "1707 (posthumous source)",
+      "place": "Quedlinburg (publication)",
+      "period": "Baroque",
+      "evidence": "A",
+      "summary": "Advocates equal narrowing of all fifths while retaining the possibility of purer diatonic thirds. An exclusive late commitment to equal temperament would overstate the passage.",
+      "limitation": "This statement does not replace the different earlier proposals. There is no single timeless “Werckmeister system”.",
+      "practical": "Name the recipe and edition; compare unequal circulating systems and equal temperament as distinct possibilities.",
+      "verification": "Original pages 112–113 were read visually in Lindley’s facsimiles; the BSB bibliographical record was checked.",
+      "locator": "WER1707, pp. 112–113",
+      "sourceIds": [
+        "WER1707"
+      ],
+      "eventIds": [
+        "werckmeister1707"
+      ],
+      "placeIds": [
+        "quedlinburg"
+      ],
+      "families": [
+        "equal",
+        "unequal"
+      ]
+    },
+    {
+      "id": "francois_couperin_zeugnis",
+      "name": "François Couperin (usual identification)",
+      "role": "Composer and keyboard player",
+      "dateLabel": "Reported event undated; Rousseau’s publication 1768",
+      "place": "Paris (publication of the later testimony)",
+      "period": "Baroque; later testimony",
+      "evidence": "B",
+      "summary": "Rousseau reports that the celebrated Couperin proposed and then abandoned equal temperament. The text gives neither a first name, an event date nor the exact replacement tuning.",
+      "limitation": "This is neither a first-person statement nor a cents table. The usual identification must not hide the wording’s imprecision.",
+      "practical": "Compare French unequal solutions for particular works; identify Rousseau’s statement as later testimony.",
+      "verification": "Original OCR and a transcription of the later collected edition were compared, with their pagination kept separate.",
+      "locator": "ROU1768, p. 503; later collected edition, p. 711",
+      "sourceIds": [
+        "ROU1768"
+      ],
+      "eventIds": [],
+      "placeIds": [
+        "paris"
+      ],
+      "families": [
+        "equal",
+        "unequal"
+      ]
+    },
+    {
+      "id": "jsbach_wohltemperiert",
+      "name": "Johann Sebastian Bach",
+      "role": "Composer and keyboard player",
+      "dateLabel": "1722 (WTC I); testimony in 1754, 1776 and 1802",
+      "place": "Köthen (work, 1722); Leipzig and Breslau (later publications)",
+      "period": "Baroque",
+      "evidence": "A+B",
+      "summary": "The work and later testimony support the usability of all keys. Marpurg reports through Kirnberger that every major third should be wider than pure. This does not yield a unique numerical recipe.",
+      "limitation": "A concerns the work; B the later reports. “Every major third wider than pure” does not mean “every major third equally wide”.",
+      "practical": "Compare mild unequal circulating temperaments and equal temperament; state the source hypothesis instead of claiming “Bach’s only temperament”.",
+      "verification": "The autograph title page and Marpurg’s original page 213 were checked visually; obituary and Forkel passages were read in identified transcriptions.",
+      "locator": "JSB1722, title page; NEK1754, p. 173; MAR1776, §228, p. 213; FOR1802, p. 17",
+      "sourceIds": [
+        "JSB1722",
+        "NEK1754",
+        "MAR1776",
+        "FOR1802"
+      ],
+      "eventIds": [
+        "bach1722"
+      ],
+      "placeIds": [
+        "koethen"
+      ],
+      "families": [
+        "unequal",
+        "equal"
+      ]
+    },
+    {
+      "id": "neidhardt_1724",
+      "name": "Johann Georg Neidhardt",
+      "role": "Music theorist",
+      "dateLabel": "1724 (edition examined)",
+      "place": "Königsberg (publication)",
+      "period": "Baroque",
+      "evidence": "A",
+      "summary": "Assigns different unequal procedures to village, small-town and large-town settings, recommending equal temperament for the court. These are normative distinctions between contexts.",
+      "limitation": "The settlement labels are recommendations, not an empirical distribution map or evidence of Bach’s choice. Later editions differ.",
+      "practical": "Compare recipes from the same edition; name musical demands, instrument and modulation needs as criteria.",
+      "verification": "Publication metadata and the relevant complete transcription passage were checked against Norrback, pp. 34–37.",
+      "locator": "NEI1724, p. 20; division II, section I, conclusion of the temperament descriptions",
+      "sourceIds": [
+        "NEI1724"
+      ],
+      "eventIds": [
+        "neidhardt1724"
+      ],
+      "placeIds": [
+        "koenigsberg"
+      ],
+      "families": [
+        "unequal",
+        "equal"
+      ]
+    },
+    {
+      "id": "rameau_1726",
+      "name": "Jean-Philippe Rameau",
+      "role": "Composer and music theorist",
+      "dateLabel": "1726 (first position examined here)",
+      "place": "Paris (publication)",
+      "period": "Baroque",
+      "evidence": "A",
+      "summary": "Describes unequal, modified meantone keyboard tuning and argues for the expressive potential of differently altered intervals. The text connects ratios, experiment and established practice.",
+      "limitation": "There is no undisputed single modern “Rameau” preset. This dated position must be distinguished from his recommendation in 1737.",
+      "practical": "Compare an explicitly documented reconstruction with regular meantone, disclosing interpretative steps in the numerical description.",
+      "verification": "Original OCR was read and compared with Lindley’s cited passages. In the linked scan, the 1726 work follows the 1722 Traité.",
+      "locator": "RAM1726, chapter XXIV, pp. 107–114; pp. 107–111 checked",
+      "sourceIds": [
+        "RAM1726"
+      ],
+      "eventIds": [
+        "rameau1726"
+      ],
+      "placeIds": [
+        "paris"
+      ],
+      "families": [
+        "meantone",
+        "unequal"
+      ]
+    },
+    {
+      "id": "rameau_1737",
+      "name": "Jean-Philippe Rameau",
+      "role": "Composer and music theorist",
+      "dateLabel": "1737 (changed position)",
+      "place": "Paris (publication)",
+      "period": "Baroque",
+      "evidence": "A",
+      "summary": "Calls for equal semitones, distances himself from his earlier accommodation of established practice, and asks listeners to become accustomed to the new temperament. His theoretical endorsement of equal temperament is explicit.",
+      "limitation": "The recommendation proves neither immediate universal adoption in Paris nor the original tuning of his entire output.",
+      "practical": "Use equal temperament as a historically grounded comparison for this later position; consider earlier works separately.",
+      "verification": "The original PDF and OCR were read; printed pages 96 and 103–104 were checked against page images.",
+      "locator": "RAM1737, chapter VII, pp. 75–104; especially pp. 95–96, 100 and 103–104",
+      "sourceIds": [
+        "RAM1737"
+      ],
+      "eventIds": [
+        "rameau1737"
+      ],
+      "placeIds": [
+        "paris"
+      ],
+      "families": [
+        "equal"
+      ]
+    },
+    {
+      "id": "cpebach_1753",
+      "name": "Carl Philipp Emanuel Bach",
+      "role": "Composer and keyboard player",
+      "dateLabel": "1753 (source); text compared with 1759",
+      "place": "Berlin (publication)",
+      "period": "Late Baroque and early Classical",
+      "evidence": "A",
+      "summary": "Requires slight narrowing of most fifths, checks using other intervals and chords, and usability in all 24 keys. He does not specify exact sizes or their distribution.",
+      "limitation": "The wording requires neither mathematical equal temperament nor one particular unequal recipe.",
+      "practical": "Compare mild circulating temperaments; use his qualitative instruction as a criterion rather than a unique cents table.",
+      "verification": "A 1753 transcription labelled AI-assisted was compared with a proofread text of the 1759 edition.",
+      "locator": "CPE1753, introduction §14, p. 10 (1753); pp. 8–9 (1759)",
+      "sourceIds": [
+        "CPE1753"
+      ],
+      "eventIds": [
+        "cpe1753"
+      ],
+      "placeIds": [
+        "berlin"
+      ],
+      "families": [
+        "unequal",
+        "equal"
+      ]
+    },
+    {
+      "id": "leopold_mozart_1756",
+      "name": "Leopold Mozart",
+      "role": "Composer, violinist and teacher",
+      "dateLabel": "1756 (violin treatise)",
+      "place": "Augsburg (publication); Salzburg (activity context)",
+      "period": "Early Classical",
+      "evidence": "A",
+      "summary": "Distinguishes the violin’s enharmonic pitches from the limitations of individual keyboard keys. This concerns adaptable intonation, not a general numerical keyboard prescription.",
+      "limitation": "It does not establish Wolfgang’s piano tuning or a rigid octave division applicable to every ensemble.",
+      "practical": "Separate violin and ensemble intonation from fixed keyboards; examine enharmonic spellings in harmonic context.",
+      "verification": "Haynes’s author version, including primary-source excerpts, was read.",
+      "locator": "HAY1991, introduction and source excerpts concerning Leopold Mozart",
+      "sourceIds": [
+        "HAY1991"
+      ],
+      "eventIds": [],
+      "placeIds": [],
+      "families": [
+        "other"
+      ]
+    },
+    {
+      "id": "wa_mozart_forschungsfrage",
+      "name": "Wolfgang Amadé Mozart",
+      "role": "Composer and keyboard player",
+      "dateLabel": "Late 18th century; research published 1977",
+      "place": "Vienna (teaching and work context; no tuning evidence checked here)",
+      "period": "Classical",
+      "evidence": "open",
+      "summary": "Chesnut’s study of Mozart’s teaching of intonation is a relevant research lead. Since only metadata were checked, no particular personal tuning is inferred from it.",
+      "limitation": "Metadata establish neither a 55-EDO piano nor a particular meantone or equal-tempered preference.",
+      "practical": "Examine Attwood’s studies and their critical edition first; leave personal numerical attributions open in the meantime.",
+      "verification": "The author, title, volume, issue, pages and DOI were checked; full-text access was unavailable.",
+      "locator": "CHE1977: bibliographical record only; full text not examined",
+      "sourceIds": [
+        "CHE1977"
+      ],
+      "eventIds": [],
+      "placeIds": [],
+      "families": [
+        "other"
+      ]
+    },
+    {
+      "id": "tuerk_1789",
+      "name": "Daniel Gottlob Türk",
+      "role": "Composer, keyboard player and teacher",
+      "dateLabel": "1789 (source)",
+      "place": "Leipzig and Halle (publication)",
+      "period": "Classical",
+      "evidence": "A",
+      "summary": "The contents list covers equal temperament and Kirnberger’s unequal procedure in consecutive sections. It documents both as topics in the same keyboard tutor.",
+      "limitation": "Only the contents list was checked. It establishes neither an exclusive preference nor the prevalence of either procedure.",
+      "practical": "Present both as historical comparisons; consult the full instructions before choosing a precise implementation.",
+      "verification": "The transcribed contents list was examined; no detailed interpretation is claimed from the unconsulted instructions.",
+      "locator": "TUR1789, appendix, first section, §§11–12",
+      "sourceIds": [
+        "TUR1789"
+      ],
+      "eventIds": [],
+      "placeIds": [],
+      "families": [
+        "equal",
+        "unequal"
+      ]
+    },
+    {
+      "id": "beethoven_offener_befund",
+      "name": "Ludwig van Beethoven",
+      "role": "Composer and keyboard player",
+      "dateLabel": "Late 18th and early 19th centuries (works)",
+      "place": "Vienna (works and instruments; no specific tuning evidence)",
+      "period": "Classical and early 19th century",
+      "evidence": "open",
+      "summary": "This selected source corpus establishes no personal tuning instruction by Beethoven. Contemporary teaching sources discuss several procedures, which does not support an individual attribution.",
+      "limitation": "This is an open research finding, not proof that no source could exist, and no preference is inferred from his residence.",
+      "practical": "Use equal temperament as a reference comparison; justify unequal experiments through the instrument, work and source evidence.",
+      "verification": "No personal tuning prescription was verified in this selected corpus; Türk’s contents list provides period context only.",
+      "locator": "TUR1789, appendix, first section, §§11–12; contextual source only",
+      "sourceIds": [
+        "TUR1789"
+      ],
+      "eventIds": [],
+      "placeIds": [],
+      "families": [
+        "other"
+      ]
+    },
+    {
+      "id": "montal_1834",
+      "name": "Claude Montal",
+      "role": "Piano tuner and author",
+      "dateLabel": "1834 (source)",
+      "place": "Paris (publication and practical context)",
+      "period": "19th century",
+      "evidence": "A",
+      "summary": "Explains twelve equal semitones and equally tempered fifths as a practical piano-tuning procedure. This is a specific use-oriented instruction for equal temperament in Paris in 1834.",
+      "limitation": "This is neither a Europe-wide introduction date nor retrospective evidence of every earlier composer’s preferences.",
+      "practical": "Demonstrate equal temperament as a documented practical procedure; distinguish the ideal from its realization on an instrument.",
+      "verification": "The digitized primary text/OCR was read; twelve equal semitones and equally tempered fifths are explicit.",
+      "locator": "MON1834, pp. 8–12, especially pp. 9 and 12",
+      "sourceIds": [
+        "MON1834"
+      ],
+      "eventIds": [
+        "montal1834"
+      ],
+      "placeIds": [
+        "paris"
+      ],
+      "families": [
+        "equal"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "AAR1523",
+      "author": "Pietro Aron (Aaron)",
+      "year": "1523",
+      "title": "Thoscanello de la musica",
+      "publication": "Venedig; digitale kritische Leseedition im Thesaurus Musicarum Italicarum (TMI)",
+      "url": "https://tmiweb.science.uu.nl/text/reading-edition/aartos.html",
+      "locator": "Book II, chapter 41; pp. 106–107 of the 1523 edition",
+      "type": "Primary source",
+      "verification": "Digital-edition text examined; edition pagination and editorial commentary distinguished.",
+      "supports": "Pure C–E third and narrowed fifths; no completely unambiguous modern cents table.",
+      "limits": "A written recipe establishes neither invention nor universal application.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "ZAR1558",
+      "author": "Gioseffo Zarlino",
+      "year": "1558",
+      "title": "Le istitutioni harmoniche",
+      "publication": "Venedig; digitale Edition im TMI",
+      "url": "https://tmiweb.science.uu.nl/text/reading-edition/zarins58.html",
+      "locator": "Part II, chapter 42, pp. 126–127; chapter 43, p. 128",
+      "type": "Primary source",
+      "verification": "The explicit division of the syntonic comma and narrowing of fifths were checked in the text.",
+      "supports": "Two-sevenths-comma narrowing of fifths.",
+      "limits": "The statement concerns this edition and this instrument construction.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "SAL1577",
+      "author": "Francisco de Salinas",
+      "year": "1577",
+      "title": "De musica libri septem",
+      "publication": "Salamanca: Mathias Gastius; TML-Transkription von Claudia Di Luca, Andreas Giger und Thomas J. Mathiesen (1996), zugänglich über Fenyx",
+      "url": "https://fenyx.me/browse/SALMUS3",
+      "locator": "Book III, chapters 13–15 and 22–26; especially chapter 22, pp. 154–155",
+      "type": "Primary source",
+      "verification": "The transcription was read, including its source header and page markers.",
+      "supports": "Comparison of third-, two-sevenths- and quarter-comma meantone; advantages of quarter-comma for understanding and instrument construction.",
+      "limits": "The former Indiana link did not provide usable full text; the explicitly identified transcription mirror was used.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "VIC1555",
+      "author": "Nicola Vicentino",
+      "year": "1555",
+      "title": "L'antica musica ridotta alla moderna prattica",
+      "publication": "Rom: Antonio Barrè; Library of Congress",
+      "url": "https://www.loc.gov/item/06021731/",
+      "locator": "Book V, especially fols. 99r–100r and the following tuning instructions",
+      "type": "Primary source",
+      "verification": "The digitization record and Book V location were checked; detailed interpretation was compared with Kirnbauer 2026.",
+      "supports": "The archicembalo and differentiated pitches beyond a twelve-key inventory.",
+      "limits": "No full reconstruction of every proposed tuning was undertaken.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "GAL1581",
+      "author": "Vincenzo Galilei",
+      "year": "1581",
+      "title": "Dialogo della musica antica, et della moderna",
+      "publication": "Florenz: Giorgio Marescotti; TMI, hg. von Frans Wiering, 2016",
+      "url": "https://tmiweb.science.uu.nl/text/reading-edition/galdia.html",
+      "locator": "pp. 47–49",
+      "type": "Primary source",
+      "verification": "Passages on habit, sound production and the 18:17 rule were checked directly in the primary text.",
+      "supports": "Instrument-dependent listening habits; approximately equal semitones on a fretted instrument.",
+      "limits": "18:17 is not mathematically exact twelvefold octave division.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "BAR1983",
+      "author": "Patrizio Barbieri",
+      "year": "1983 [published 1987]",
+      "title": "I temperamenti ciclici da Vicentino (1555) a Buliowski (1699): teoria e pratica ‘archicembalistica’",
+      "publication": "L'Organo 21, S. 129–208; Sonderdruck Bologna: Pàtron, 1987",
+      "url": "https://www.examenapium.it/cs/biblio/Barbieri1983.pdf",
+      "locator": "pp. 144–146, especially p. 145",
+      "type": "Archival research",
+      "verification": "The PDF was downloaded and the relevant printed pages read in extracted full text.",
+      "supports": "Roman experiments with equal temperament; Doni’s testimony about Frescobaldi; Castelli and Valentini.",
+      "limits": "The manuscripts cited there were not examined directly; Doni is a partisan witness.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "KIR2026",
+      "author": "Martin Kirnbauer",
+      "year": "2026",
+      "title": "Why Should One Build an Archicembalo? An Attempt at a Response According to Nicola Vicentino",
+      "publication": "In Augusta Campagne und Markus Grassl (Hg.), ‘Per aures ad animum’. The Harpsichord in the Sixteenth Century II: Italy. mdwPress",
+      "url": "https://www.mdw.ac.at/mdwpress/en/mdwp017-005/",
+      "locator": "Online full text: interpretations by Barbieri, Meeùs and Rasch; Vicentino’s Book V",
+      "type": "Research article",
+      "verification": "The full text and embedded bibliographical metadata were examined.",
+      "supports": "Source criticism of retrospectively reducing the archicembalo to 31-EDO.",
+      "limits": "A reasoned recent interpretation, not a claimed final resolution of the debate.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "LEV2020",
+      "author": "Jeffrey Levenberg",
+      "year": "2020",
+      "title": "Seconda Pratica Temperaments, Prima Pratica Tempers: The Artusi-Monteverdi Controversy and the Retuning of Musica Moderna",
+      "publication": "Acta Musicologica 92/1, S. 21–41",
+      "url": "https://acta.musicology.org/acta/article/view/92-1-2020-021-levenberg",
+      "locator": "Publisher metadata and institutional abstract",
+      "type": "Research article",
+      "verification": "Metadata and abstract examined; full text unavailable.",
+      "supports": "The author argues for expressive meantone and the abstract notes the absence of Monteverdi tuning instructions.",
+      "limits": "No detailed reading of the inaccessible full text is claimed. Publisher volume 92 takes precedence over a conflicting institutional volume number.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "DUF2006",
+      "author": "Ross W. Duffin",
+      "year": "2006",
+      "title": "Just Intonation in Renaissance Theory and Practice",
+      "publication": "Music Theory Online 12/3",
+      "url": "https://mtosmt.org/retrofit/mto.06.12.3/mto.06.12.3.duffin.html",
+      "locator": "Paragraphs 1–6, 20–25, 37–39 and conclusion",
+      "type": "Research article",
+      "verification": "Online full text read, especially Benedetti/Rore and proposed intonation solutions.",
+      "supports": "Vocal intonation, comma drift and present-day practical reconstruction.",
+      "limits": "Proposed modern solutions are not direct evidence of historical performance.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "SNY2009",
+      "author": "Kerala J. Snyder",
+      "year": "2009",
+      "title": "Buxtehude's Free Organ Works",
+      "publication": "Journal of Seventeenth-Century Music 15/1; Rezension von Michael Belottis Die freien Orgelwerke Dieterich Buxtehudes",
+      "url": "https://sscm-jscm.org/v15/no1/snyder.html",
+      "locator": "Sections 5.1–5.2; notes 23–25",
+      "type": "Critical research review",
+      "verification": "Full text, explicit retraction and contract reference examined.",
+      "supports": "Retraction of the Werckmeister-III hypothesis for Lübeck in 1683; equal temperament specified in the 1782 contract.",
+      "limits": "The contract of 1782 does not concern Buxtehude’s lifetime.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "LINWEB",
+      "author": "Mark Lindley",
+      "year": "n.d.",
+      "title": "Valuable nuances of tuning for Part I of J. S. Bach's Das wohl temperirte Clavier",
+      "publication": "Staatliches Institut für Musikforschung, Online-Publikation",
+      "url": "https://www.simpk.de/forschung/publikationen/online-publikationen/mark-lindley-valuable-nuances-of-tuning-for-bachs-wtc-i/standard-titel.html",
+      "locator": "Part 2: Descriptions of various theoretical schemes of well-tempered tuning",
+      "type": "Research essay with facsimiles and audio",
+      "verification": "The text and reproduced Werckmeister pages 112–113 were checked.",
+      "supports": "Different recipes, source problems and Lindley’s own performance hypothesis.",
+      "limits": "Lindley’s ideal for Bach and criticism of other authors are identified as his positions.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "MON1834",
+      "author": "Claude Montal",
+      "year": "1834",
+      "title": "Abrégé de l'art d'accorder soi-même son piano",
+      "publication": "Paris: J. Meissonnier",
+      "url": "https://archive.org/details/AbregeMontal1834",
+      "locator": "pp. 8–12, especially pp. 9 and 12",
+      "type": "Primary source",
+      "verification": "Digitized primary text/OCR read; twelve equal semitones and equally tempered fifths are explicit.",
+      "supports": "Equal temperament as a practical piano-tuning method in Paris in 1834.",
+      "limits": "This does not establish a Europe-wide introduction in 1834; the historical subsidiary theory of “35 notes” is not adopted.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "NEARTH",
+      "author": "Natural Earth",
+      "year": "n.d.",
+      "title": "Land, 1:110 million; Terms of Use",
+      "publication": "Kartografischer Datensatz; Tom Patterson, Nathaniel Vaughn Kelso und Mitwirkende",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "locator": "Land polygons; licence statement",
+      "type": "Map dataset",
+      "verification": "GeoJSON reused; public-domain status checked on the official page.",
+      "supports": "Geographical orientation without political borders.",
+      "limits": "Modern generalized coastlines, not historical territories or tuning-distribution data.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "RAM1726",
+      "author": "Jean-Philippe Rameau",
+      "year": "1726",
+      "title": "Nouveau systême de musique théorique",
+      "publication": "Paris: Jean-Baptiste-Christophe Ballard",
+      "url": "https://archive.org/details/traitdelharmon00rame",
+      "locator": "Chapter XXIV, pp. 107–114; pp. 107–111 examined",
+      "type": "Primary source",
+      "verification": "Original OCR read and checked against Lindley’s quotations; bound after the 1722 Traité in the linked collected scan.",
+      "supports": "Unequal temperament and arguments about expression.",
+      "limits": "No unique modern cents table is derived from the partly difficult numerical description.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "RAM1737",
+      "author": "Jean-Philippe Rameau",
+      "year": "1737",
+      "title": "Génération harmonique, ou Traité de musique théorique et pratique",
+      "publication": "Paris: Prault fils",
+      "url": "https://archive.org/details/generationharmon00rame",
+      "locator": "Chapter VII, pp. 75–104; especially pp. 95–96, 100 and 103–104",
+      "type": "Primary source",
+      "verification": "Original PDF and OCR read; printed pages 96 and 103–104 checked against page images.",
+      "supports": "Equal semitones, a changed position and an argument about becoming accustomed to the tuning.",
+      "limits": "A recommendation does not prove universal application in Paris.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "ROU1768",
+      "author": "Jean-Jacques Rousseau",
+      "year": "1768",
+      "title": "Dictionnaire de musique",
+      "publication": "Paris: Veuve Duchesne",
+      "url": "https://archive.org/details/dictionnairedemu00rous",
+      "locator": "Entry Tempérament, pp. 499–505; Couperin on p. 503. Later collected edition: p. 711",
+      "type": "Primary source / testimony",
+      "verification": "Original OCR compared with a transcription of the later collected edition; pagination kept separate.",
+      "supports": "Later testimony about Couperin and opposition to equal temperament.",
+      "limits": "The report gives no first name, event date or alternative tuning recipe.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "LINFR",
+      "author": "Mark Lindley",
+      "year": "n.d.",
+      "title": "Valuable Nuances of Tuning for Bach’s WTC I, Abschnitt 6: The French Background",
+      "publication": "Online-Forschungsbeitrag, Staatliches Institut für Musikforschung, Berlin",
+      "url": "https://www.simpk.de/forschung/publikationen/online-publikationen/mark-lindley-valuable-nuances-of-tuning-for-bachs-wtc-i/6-the-french-background.html",
+      "locator": "Section 6; French sources and Louis Couperin",
+      "type": "Research article",
+      "verification": "Institutional online full text read. Only the abstract of the related Early Music 41/3 (2013), pp. 403–420 article was accessible.",
+      "supports": "Source comparison and analytical interpretations of French practice.",
+      "limits": "The citation refers to the online text actually read; interpretations are not first-person testimony by the composers.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "MEF1973",
+      "author": "John Meffen",
+      "year": "1973",
+      "title": "The Temperament of Keyboard Instruments in England during the Late Sixteenth and Early Seventeenth Centuries",
+      "publication": "Masterarbeit, Durham University",
+      "url": "https://etheses.durham.ac.uk/id/eprint/10096/",
+      "locator": "pp. 106–112",
+      "type": "Research thesis",
+      "verification": "Original PDF downloaded; relevant concluding and repertoire passages read.",
+      "supports": "Byrd’s context and a hypothesis concerning Bull’s chromatic fantasia.",
+      "limits": "An older, partly contested reconstruction; not a personal tuning instruction by either composer.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "SCH2005",
+      "author": "David Schulenberg",
+      "year": "2005",
+      "title": "Editing the Keyboard Music of Bull and Scheidemann",
+      "publication": "Journal of Seventeenth-Century Music 11/1",
+      "url": "https://sscm-jscm.org/v11/no1/schulenberg.html",
+      "locator": "Section 4.5 and note 12",
+      "type": "Research article",
+      "verification": "Full text, including the note, read.",
+      "supports": "Criticism of conclusions about equal temperament and extra keys in Bull.",
+      "limits": "An argument from the score, not a surviving personal recipe.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "ORT2007",
+      "author": "Ibo Ortgies",
+      "year": "2004 / revised 2007",
+      "title": "Die Praxis der Orgelstimmung in Norddeutschland im 17. und 18. Jahrhundert und ihr Verhältnis zur zeitgenössischen Musikpraxis",
+      "publication": "Dissertation, Göteborgs universitet; korrigierte und überarbeitete Online-Fassung",
+      "url": "https://noah.nrw/ulbmshsnoah/download/pdf/4291824",
+      "locator": "p. 160, note 265; referring to Pieter Dirksen 1997, p. 576",
+      "type": "Research thesis",
+      "verification": "PDF and relevant note read; Dirksen’s original monograph not examined directly.",
+      "supports": "Sweelinck’s pitch inventory and limits of the split-accidental hypothesis.",
+      "limits": "The specific Dirksen claim is explicitly cited through Ortgies.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "WER1707",
+      "author": "Andreas Werckmeister",
+      "year": "1707",
+      "title": "Musicalische Paradoxal-Discourse",
+      "publication": "Quedlinburg: Theodor Philipp Calvisius",
+      "url": "https://www.digitale-sammlungen.de/de/view/bsb10527832",
+      "locator": "pp. 112–113",
+      "type": "Primary source",
+      "verification": "Both original pages read visually in Lindley’s facsimiles; BSB bibliographical record checked.",
+      "supports": "Equal fifth tempering alongside a preference for purer diatonic thirds.",
+      "limits": "The adjacent qualification must not be omitted to assert exclusive advocacy of equal temperament.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "WER1691",
+      "author": "Andreas Werckmeister",
+      "year": "1691",
+      "title": "Musicalische Temperatur",
+      "publication": "Franckfurt und Leipzig: Theodor Philipp Calvisius",
+      "url": "https://digital.slub-dresden.de/werkansicht/dlf/11688/1",
+      "locator": "Title and publication record; systems discussed in Norrback 2002, pp. 20–23",
+      "type": "Primary source / catalogue",
+      "verification": "Institutional bibliographical metadata checked; models compared through Norrback’s account and reproduced original illustrations.",
+      "supports": "Date and publication places; context of the named models.",
+      "limits": "Quedlinburg is not used as this edition’s publication place; no attribution to Bach.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "JSB1722",
+      "author": "Johann Sebastian Bach",
+      "year": "1722 [catalogue: 1722–1723]",
+      "title": "Das Wohltemperirte Clavier, Teil I, Autograph",
+      "publication": "Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Mus.ms. Bach P 415; RISM A2 467300894",
+      "url": "https://resolver.staatsbibliothek-berlin.de/SBB000189D400000000",
+      "locator": "Title page, fol. 1r",
+      "type": "Primary source / autograph",
+      "verification": "Institutional IIIF metadata and the original title-page image examined; title and year checked.",
+      "supports": "A design covering all tones and semitones with major and minor thirds.",
+      "limits": "The title page gives no unique numerical temperament; its ornament is not used as a decoding key.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "CPE1753",
+      "author": "Carl Philipp Emanuel Bach",
+      "year": "1753",
+      "title": "Versuch über die wahre Art das Clavier zu spielen, Erster Theil",
+      "publication": "Berlin: Christian Friedrich Henning; Vergleichsausgabe 1759",
+      "url": "https://musiktheorie.georgthoma.de/quellen/bach/bach-1753-versuch-1/",
+      "locator": "Introduction §14, p. 10 (1753); pp. 8–9 (1759)",
+      "type": "Primary source in transcriptions",
+      "verification": "A 1753 transcription identified as AI-assisted was compared with a proofread 1759 text.",
+      "supports": "Temper fifths, check chords, use all 24 keys.",
+      "limits": "No exact cents distribution; edition pagination is kept separate.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "MAR1776",
+      "author": "Friedrich Wilhelm Marpurg",
+      "year": "1776",
+      "title": "Versuch über die musikalische Temperatur",
+      "publication": "Breslau: Johann Friedrich Korn d. Ä.",
+      "url": "https://archive.org/details/imslp-ber-die-musikalische-temperatur-marpurg-friedrich-wilhelm",
+      "locator": "§228, p. 213; digitization leaf n228",
+      "type": "Primary source / transmitted testimony",
+      "verification": "Original page 213 checked visually; wording and the Bach–Kirnberger–Marpurg transmission chain examined.",
+      "supports": "A report of Bach’s demand for impure, wide major thirds.",
+      "limits": "A later polemical report; unequal widths are not logically excluded.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "NEK1754",
+      "author": "Carl Philipp Emanuel Bach und Johann Friedrich Agricola",
+      "year": "1754",
+      "title": "Nekrolog auf Johann Sebastian Bach",
+      "publication": "In Lorenz Christoph Mizler, Musikalische Bibliothek IV/1, Leipzig, S. 158–176",
+      "url": "https://bach.wursten.be/documenten/bach-nekrolog_D.htm",
+      "locator": "p. 173; section on the musician",
+      "type": "Primary source / testimony in transcription",
+      "verification": "Transcription read; pagination compared with research references. Original page not separately inspected visually.",
+      "supports": "Usability of every key on Bach’s tempered instruments.",
+      "limits": "No numerical recipe and no Bach autograph.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "FOR1802",
+      "author": "Johann Nikolaus Forkel",
+      "year": "1802",
+      "title": "Ueber Johann Sebastian Bachs Leben, Kunst und Kunstwerke",
+      "publication": "Leipzig: Hoffmeister und Kühnel",
+      "url": "https://de.wikisource.org/wiki/Seite:Forkel_Bach_1802_Seite_17.jpg",
+      "locator": "p. 17",
+      "type": "Primary source / later biography",
+      "verification": "A proofread transcription linked to the page image was read.",
+      "supports": "Bach tuning for himself and freedom in all 24 keys.",
+      "limits": "A late account without an exact interval prescription.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "NEI1724",
+      "author": "Johann Georg Neidhardt",
+      "year": "1724",
+      "title": "Sectio canonis harmonici, zur völligen Richtigkeit der Generum Modulandi",
+      "publication": "Königsberg: Christoph Gottfried Eckart",
+      "url": "https://digital.slub-dresden.de/werkansicht/dlf/108164/1",
+      "locator": "p. 20; division II, section I, conclusion of the temperament descriptions",
+      "type": "Primary source in transcription",
+      "verification": "Publication metadata and the complete relevant transcription passage read; compared with Norrback 2002, pp. 34–37.",
+      "supports": "Normative assignments to village, small town, large town and court.",
+      "limits": "A recommendation rather than practice statistics; the labels change in 1732.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "NOR2002",
+      "author": "Johan Norrback",
+      "year": "2002",
+      "title": "A Passable and Good Temperament: A New Methodology for Studying Tuning and Temperament in Organ Music",
+      "publication": "Göteborg University, Studies from the Department of Musicology 70; ISBN 91-85974-66-8",
+      "url": "https://gupea.ub.gu.se/server/api/core/bitstreams/f26b54f3-bebb-489c-9ab4-648aa4f62e0a/content",
+      "locator": "pp. 15–16, 20–23 and 34–37; references and model illustrations",
+      "type": "Research thesis",
+      "verification": "Institutional full-text PDF accessible; the named sections and footnotes read.",
+      "supports": "Organ-oriented methodology, Werckmeister models and Neidhardt’s changing system labels.",
+      "limits": "Other case studies are not adopted as fully checked findings.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "STE1600",
+      "author": "Simon Stevin; Edition Adriaan D. Fokker",
+      "year": "c. 1600 / Edition 1966",
+      "title": "Vande spiegheling der singconst",
+      "publication": "In The Principal Works of Simon Stevin, Bd. V, Amsterdam: Swets und Zeitlinger, 1966, S. 413–464",
+      "url": "https://www.huygens-fokker.org/docs/stevintheory.html",
+      "locator": "p. 427 and editorial introduction",
+      "type": "Primary source in translation / edition",
+      "verification": "English text edition and introduction read.",
+      "supports": "Equal octave division before Bach.",
+      "limits": "An unfinished treatise unpublished during Stevin’s life; exact dating disputed. 1585 is not a secure publication date for the music text.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "HAY1991",
+      "author": "Bruce Haynes",
+      "year": "1991 / online version 2006",
+      "title": "Beyond Temperament: Non-keyboard Intonation in the 17th and 18th Centuries",
+      "publication": "Early Music 19/3, S. 357–381; hier konsultierte Autorenfassung © 2006",
+      "url": "https://www.hoboy.net/Hoboy/BeyondTemperament.html",
+      "locator": "Introduction and source extracts concerning Leopold Mozart, Quantz and Telemann",
+      "type": "Research article with primary-source extracts",
+      "verification": "The author version with source texts was read.",
+      "supports": "The distinction between adaptable intonation and fixed keyboard tuning.",
+      "limits": "No inference of Wolfgang Amadeus Mozart’s personal piano preset.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "CHE1977",
+      "author": "John Hind Chesnut",
+      "year": "1977",
+      "title": "Mozart’s Teaching of Intonation",
+      "publication": "Journal of the American Musicological Society 30/2, S. 254–271",
+      "url": "https://online.ucpress.edu/jams/article/30/2/254/49659/Mozart-s-Teaching-of-Intonation",
+      "locator": "Bibliographical record; full text not examined",
+      "type": "Further research",
+      "verification": "Author, title, volume, issue, pages and DOI checked; full-text access unavailable.",
+      "supports": "A lead for further research.",
+      "limits": "No particular Mozart tuning recipe is asserted from the inaccessible full text.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "TUR1789",
+      "author": "Daniel Gottlob Türk",
+      "year": "1789",
+      "title": "Klavierschule oder Anweisung zum Klavierspielen für Lehrer und Lernende",
+      "publication": "Leipzig und Halle",
+      "url": "https://www.koelnklavier.de/quellen/tuerk/_inhalt.html",
+      "locator": "Appendix, first section, §§11–12",
+      "type": "Primary source / transcribed contents list",
+      "verification": "Contents list examined; no detailed interpretation of the unconsulted instructions.",
+      "supports": "Adjacent teaching sections on equal and Kirnberger temperament.",
+      "limits": "No evidence of general distribution or an individual composer’s preference.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "SCH1511",
+      "author": "Arnolt Schlick",
+      "year": "1511",
+      "title": "Spiegel der Orgelmacher und Organisten",
+      "publication": "Speyer: Peter Drach III",
+      "url": "https://copyrighthistory.org/cam/tools/request/showRecord.php?id=record_d_1511a",
+      "locator": "Title, privilege and bibliographical metadata for the Marienbibliothek Halle copy",
+      "type": "Primary-source record / catalogue",
+      "verification": "Scholarly catalogue record checked for author, publisher, date and publication place.",
+      "supports": "Dated bibliographical context on the map and timeline.",
+      "limits": "Tuning chapter VIII was not directly collated; no particular recipe is inferred from this record.",
+      "accessed": "2026-10-21"
+    }
+  ]
+}
