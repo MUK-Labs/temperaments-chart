@@ -86,3 +86,5 @@ The workflow versions were checked against the official action releases on 26 Oc
 ## Credits
 
 Concept, research direction and original dossier: **Adrián Artacho**. Research synthesis and web implementation developed with ChatGPT. Historical claims remain attributed to the sources listed in the atlas. The visual palette follows the existing [MUK-Labs Temperaments](https://github.com/MUK-Labs/temperaments) project.
+
+## [To-Do](https://trello.com/c/MFrG2Ar2/108-temperaments)
